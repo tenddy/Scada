@@ -1,0 +1,145 @@
+﻿Build started 4/10/2015 1:30:35 PM.
+     1>Project "D:\Scada_v5\Scada\Scada.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing scada.h...
+         Uic'ing dataManager.ui...
+         Moc'ing thermometerconfig.h...
+         Moc'ing thermometer.h...
+         Moc'ing pageconfig.h...
+         Moc'ing enginemeter.h...
+         Moc'ing indicatorconfigdlg.h...
+         Moc'ing meterconfigdlg.h...
+         Moc'ing datamanager.h...
+         Moc'ing sysconfig.h...
+         Rcc'ing scada.qrc...
+         Uic'ing sysconfig.ui...
+     1>D:\Scada_v5\Scada\sysconfig.ui : warning : Z-order assignment: '' is not a valid widget.
+         Uic'ing meterconfigdlg.ui...
+         Uic'ing pageconfigdlg.ui...
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\jingchuan\Desktop\Scada_v5\Scada\src /IC:\Users\jingchuan\Desktop\Scada_v5\MonitorSystem /ID:\che\Scada_v5\Scada\Distance /ID:\che\Scada_v5\Scada\src /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /ID:\Scada_v5\Scada\Distance /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\Distance /ID:\Scada_v5\Scada\src /ID:\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\src /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtQml /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSvg /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXml /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXmlPatterns /I.\CanOpen /I..\Distance /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_SQL_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CanOpen\canopenprotocol.cpp CanOpen\canopentestdlg.cpp GeneratedFiles\Release\moc_basepage.cpp GeneratedFiles\Release\moc_canopenprotocol.cpp GeneratedFiles\Release\moc_canopentestdlg.cpp GeneratedFiles\Release\moc_datamanager.cpp GeneratedFiles\Release\moc_enginemeter.cpp GeneratedFiles\Release\moc_indicatorconfigdlg.cpp GeneratedFiles\Release\moc_meterconfigdlg.cpp GeneratedFiles\Release\moc_pageconfig.cpp GeneratedFiles\Release\moc_pageconfigdlg.cpp GeneratedFiles\Release\moc_scada.cpp GeneratedFiles\Release\moc_stackedpage.cpp GeneratedFiles\Release\moc_sysconfig.cpp GeneratedFiles\Release\moc_thermometer.cpp GeneratedFiles\Release\moc_thermometerconfig.cpp SettingFiles.cpp channel.cpp connectdb.cpp datamanager.cpp indicatorconfigdlg.cpp main.cpp meterconfigdlg.cpp pageconfig.cpp pageconfigdlg.cpp scada.cpp src\basepage.cpp src\enginemeter.cpp src\qbasemeter.cpp src\thermometer.cpp src\thermometerconfig.cpp stackedpage.cpp sysconfig.cpp
+         canopenprotocol.cpp
+     1>d:\scada_v5\scada\canopen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>CanOpen\canopenprotocol.cpp(1): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         canopentestdlg.cpp
+     1>d:\scada_v5\scada\canopen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>d:\scada_v5\scada\canopen\canopentestdlg.h(7): warning C4103: 'd:\scada_v5\scada\canopen\canopentestdlg.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>CanOpen\canopentestdlg.cpp(1): warning C4103: 'd:\scada_v5\scada\canopen\canopentestdlg.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         moc_basepage.cpp
+         moc_canopenprotocol.cpp
+     1>d:\scada_v5\scada\generatedfiles\release\../../CanOpen/canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>GeneratedFiles\Release\moc_canopenprotocol.cpp(9): warning C4103: 'd:\scada_v5\scada\generatedfiles\release\moc_canopenprotocol.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         moc_canopentestdlg.cpp
+     1>d:\scada_v5\scada\canopen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>d:\scada_v5\scada\generatedfiles\release\../../CanOpen/canopentestdlg.h(7): warning C4103: 'd:\scada_v5\scada\canopen\canopentestdlg.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>GeneratedFiles\Release\moc_canopentestdlg.cpp(9): warning C4103: 'd:\scada_v5\scada\generatedfiles\release\moc_canopentestdlg.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         moc_datamanager.cpp
+         moc_enginemeter.cpp
+         moc_indicatorconfigdlg.cpp
+         moc_meterconfigdlg.cpp
+         moc_pageconfig.cpp
+         moc_pageconfigdlg.cpp
+         moc_scada.cpp
+     1>d:\scada_v5\scada\canopen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>D:\Scada_v5\Scada\CanOpen\canopentestdlg.h(7): warning C4103: 'd:\scada_v5\scada\canopen\canopentestdlg.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>d:\scada_v5\scada\generatedfiles\release\../../scada.h(26): warning C4103: 'd:\scada_v5\scada\scada.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>GeneratedFiles\Release\moc_scada.cpp(9): warning C4103: 'd:\scada_v5\scada\generatedfiles\release\moc_scada.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         moc_stackedpage.cpp
+         moc_sysconfig.cpp
+         moc_thermometer.cpp
+         moc_thermometerconfig.cpp
+         SettingFiles.cpp
+         channel.cpp
+         connectdb.cpp
+         datamanager.cpp
+         Generating Code...
+         Compiling...
+         indicatorconfigdlg.cpp
+         main.cpp
+     1>d:\scada_v5\scada\canopen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>D:\Scada_v5\Scada\CanOpen\canopentestdlg.h(7): warning C4103: 'd:\scada_v5\scada\canopen\canopentestdlg.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>d:\scada_v5\scada\scada.h(26): warning C4103: 'd:\scada_v5\scada\scada.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>main.cpp(1): warning C4103: 'd:\scada_v5\scada\main.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         meterconfigdlg.cpp
+         pageconfig.cpp
+         pageconfigdlg.cpp
+         scada.cpp
+     1>d:\scada_v5\scada\canopen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>D:\Scada_v5\Scada\CanOpen\canopentestdlg.h(7): warning C4103: 'd:\scada_v5\scada\canopen\canopentestdlg.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>d:\scada_v5\scada\scada.h(26): warning C4103: 'd:\scada_v5\scada\scada.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>scada.cpp(1): warning C4103: 'd:\scada_v5\scada\scada.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         basepage.cpp
+         enginemeter.cpp
+         qbasemeter.cpp
+         thermometer.cpp
+         thermometerconfig.cpp
+         stackedpage.cpp
+         sysconfig.cpp
+     1>D:\Scada_v5\Scada\Distance\..\CanOpen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>sysconfig.cpp(24): warning C4103: 'd:\scada_v5\scada\sysconfig.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         Generating Code...
+     1>d:\scada_v5\scada\sysconfig.cpp(152): warning C4700: uninitialized local variable 'numRows' used
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\jingchuan\Desktop\Scada_v5\Scada\src /IC:\Users\jingchuan\Desktop\Scada_v5\MonitorSystem /ID:\che\Scada_v5\Scada\Distance /ID:\che\Scada_v5\Scada\src /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /ID:\Scada_v5\Scada\Distance /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\Distance /ID:\Scada_v5\Scada\src /ID:\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\src /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtQml /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSvg /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXml /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXmlPatterns /I.\CanOpen /I..\Distance /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_SQL_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_scada.cpp
+         qrc_scada.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Scada_v5\Win32\Release\\Scada.exe" /NOLOGO /LIBPATH:C:\Users\jingchuan\Desktop\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\che\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib\qtmain.lib C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib\Qt5Core.lib C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib\Qt5Gui.lib C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib\Qt5Sql.lib C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib\Qt5Widgets.lib C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib\Qt5SerialPort.lib IEICAN02.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Scada_v5\Win32\Release\Scada.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Scada_v5\Win32\Release\Scada.lib" /MACHINE:X86 /SAFESEH Release\CanNode.obj
+         Release\canopenprotocol.obj
+         Release\canopentestdlg.obj
+         Release\channel.obj
+         Release\connectdb.obj
+         Release\datamanager.obj
+         Release\console.obj
+         Release\dataoperate.obj
+         Release\distance.obj
+         Release\Leastsquare.obj
+         Release\serialdialog.obj
+         Release\settingsdialog.obj
+         Release\qrc_scada.obj
+         Release\moc_basepage.obj
+         Release\moc_canopenprotocol.obj
+         Release\moc_canopentestdlg.obj
+         Release\moc_configure.obj
+         Release\moc_console.obj
+         Release\moc_datamanager.obj
+         Release\moc_distance.obj
+         Release\moc_enginemeter.obj
+         Release\moc_fuelmeter.obj
+         Release\moc_indicatorconfigdlg.obj
+         Release\moc_indicatorlamp.obj
+         Release\moc_meterconfigdlg.obj
+         Release\moc_pageconfig.obj
+         Release\moc_pageconfigdlg.obj
+         Release\moc_qbasemeter.obj
+         Release\moc_qmeter.obj
+         Release\moc_scada.obj
+         Release\moc_serialdialog.obj
+         Release\moc_settingsdialog.obj
+         Release\moc_stackedpage.obj
+         Release\moc_sysconfig.obj
+         Release\moc_thermometer.obj
+         Release\moc_thermometerconfig.obj
+         Release\indicatorconfigdlg.obj
+         Release\main.obj
+         Release\meterconfigdlg.obj
+         Release\pageconfig.obj
+         Release\pageconfigdlg.obj
+         Release\scada.obj
+         Release\SettingFiles.obj
+         Release\basepage.obj
+         Release\configure.obj
+         Release\enginemeter.obj
+         Release\fuelmeter.obj
+         Release\indicatorlamp.obj
+         Release\InfoMsg.obj
+         Release\qbasemeter.obj
+         Release\qmeter.obj
+         Release\thermometer.obj
+         Release\thermometerconfig.obj
+         Release\stackedpage.obj
+         Release\sysconfig.obj
+         Scada.vcxproj -> D:\Scada_v5\Win32\Release\Scada.exe
+     1>Done Building Project "D:\Scada_v5\Scada\Scada.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:27.57

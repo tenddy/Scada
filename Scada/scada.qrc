@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="systemconfig">Resources/14.png</file>
+        <file alias="ExportExecl">Resources/9.png</file>
+        <file alias="start">Resources/start.png</file>
+        <file alias="pageConfig">Resources/configure.png</file>
+        <file alias="pageEdit">Resources/edit1.png</file>
+        <file alias="pagesave1">Resources/save.png</file>
+        <file alias="pagesave2">Resources/save1.png</file>
+        <file alias="preview">Resources/preview.png</file>
+        <file alias="canOpen">Resources/canOpen.png</file>
+        <file>Distance/images/application-exit.png</file>
+        <file>Distance/images/clear.png</file>
+        <file>Distance/images/connect.png</file>
+        <file>Distance/images/disconnect.png</file>
+        <file>Distance/images/settings.png</file>
+        <file alias="serialport">Resources/serialport.png</file>
+        <file alias="database">Resources/database.png</file>
+        <file alias="pageedit1">Resources/edit.png</file>
+        <file alias="setting">Resources/setting.png</file>
+        <file alias="systemconfigure">Resources/systemconfigure.png</file>
+    </qresource>
+</RCC>

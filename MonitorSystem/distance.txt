@@ -1,0 +1,4 @@
+time:2015-03-15 22:49:56	MAC:	Distance:1.20161e-306	Msg:5439572
+insert data failed
+time:2015-03-15 22:49:57	MAC:	Distance:1.20161e-306	Msg:5439572
+insert data failed

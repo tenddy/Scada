@@ -1,0 +1,605 @@
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.37
+id:11	val:   17.36
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.37
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.36
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.35
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	val:   17.34
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.33
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.34
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.37
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.35
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36
+id:11	max:30	min:0	val:   17.36

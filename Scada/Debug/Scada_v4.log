@@ -1,0 +1,41 @@
+﻿Build started 11/26/2014 2:59:03 PM.
+     1>Project "E:\Documents\ProgramFiles\qtPrograms\Scada_v4\Scada_v4\Scada_v4.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Moc'ing scada.h...
+         Uic'ing dataManager.ui...
+         Moc'ing connectdb.h...
+         Moc'ing datamanager.h...
+         Moc'ing sysconfig.h...
+         Rcc'ing scada.qrc...
+         Uic'ing sysconfig.ui...
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtQml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSvg /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXmlPatterns /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_SQL_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt connectdb.cpp datamanager.cpp GeneratedFiles\Debug\moc_connectdb.cpp GeneratedFiles\Debug\moc_datamanager.cpp GeneratedFiles\Debug\moc_scada.cpp GeneratedFiles\Debug\moc_sysconfig.cpp main.cpp scada.cpp sysconfig.cpp
+         connectdb.cpp
+         datamanager.cpp
+         moc_connectdb.cpp
+         moc_datamanager.cpp
+         moc_scada.cpp
+         moc_sysconfig.cpp
+         main.cpp
+         scada.cpp
+         sysconfig.cpp
+         Generating Code...
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtQml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSvg /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXmlPatterns /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_SQL_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_scada.cpp
+         qrc_scada.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\ProgramFiles\qtPrograms\Scada_v4\Win32\Debug\\Scada_v4.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Qmld.lib Qt5Sqld.lib Qt5Svgd.lib Qt5Widgetsd.lib Qt5Xmld.lib Qt5XmlPatternsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Documents\ProgramFiles\qtPrograms\Scada_v4\Win32\Debug\Scada_v4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\ProgramFiles\qtPrograms\Scada_v4\Win32\Debug\Scada_v4.lib" /MACHINE:X86 /SAFESEH Debug\connectdb.obj
+         Debug\datamanager.obj
+         Debug\moc_connectdb.obj
+         Debug\moc_datamanager.obj
+         Debug\moc_scada.obj
+         Debug\moc_sysconfig.obj
+         Debug\qrc_scada.obj
+         Debug\main.obj
+         Debug\scada.obj
+         Debug\sysconfig.obj
+         Scada_v4.vcxproj -> E:\Documents\ProgramFiles\qtPrograms\Scada_v4\Win32\Debug\Scada_v4.exe
+     1>Done Building Project "E:\Documents\ProgramFiles\qtPrograms\Scada_v4\Scada_v4\Scada_v4.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.35

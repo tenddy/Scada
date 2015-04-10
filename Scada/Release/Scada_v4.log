@@ -1,0 +1,66 @@
+﻿Build started 12/28/2014 8:44:09 PM.
+     1>Project "E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada_v4\Scada_v4.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing basepage.h...
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada_v4\src /I.\GeneratedFiles /I. /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtQml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSvg /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXmlPatterns /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_SQL_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_basepage.cpp GeneratedFiles\Release\moc_pageconfig.cpp GeneratedFiles\Release\moc_pageconfigdlg.cpp GeneratedFiles\Release\moc_scada.cpp GeneratedFiles\Release\moc_stackedpage.cpp SettingFiles.cpp main.cpp pageconfig.cpp pageconfigdlg.cpp scada.cpp src\basepage.cpp stackedpage.cpp sysconfig.cpp
+         moc_basepage.cpp
+         moc_pageconfig.cpp
+         moc_pageconfigdlg.cpp
+         moc_scada.cpp
+         moc_stackedpage.cpp
+         SettingFiles.cpp
+         main.cpp
+         pageconfig.cpp
+         pageconfigdlg.cpp
+         scada.cpp
+         basepage.cpp
+         stackedpage.cpp
+         sysconfig.cpp
+         Generating Code...
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Win32\Release\\Scada.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Win32\Release\Scada.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Win32\Release\Scada.lib" /MACHINE:X86 /SAFESEH Release\connectdb.obj
+         Release\datamanager.obj
+         Release\qrc_scada.obj
+         Release\moc_basepage.obj
+         Release\moc_configure.obj
+         Release\moc_datamanager.obj
+         Release\moc_enginemeter.obj
+         Release\moc_fuelmeter.obj
+         Release\moc_indicatorconfigdlg.obj
+         Release\moc_indicatorlamp.obj
+         Release\moc_meterconfigdlg.obj
+         Release\moc_pageconfig.obj
+         Release\moc_pageconfigdlg.obj
+         Release\moc_qbasemeter.obj
+         Release\moc_qmeter.obj
+         Release\moc_scada.obj
+         Release\moc_stackedpage.obj
+         Release\moc_sysconfig.obj
+         Release\moc_thermometer.obj
+         Release\moc_thermometerconfig.obj
+         Release\indicatorconfigdlg.obj
+         Release\main.obj
+         Release\meterconfigdlg.obj
+         Release\pageconfig.obj
+         Release\pageconfigdlg.obj
+         Release\scada.obj
+         Release\SettingFiles.obj
+         Release\basepage.obj
+         Release\configure.obj
+         Release\enginemeter.obj
+         Release\fuelmeter.obj
+         Release\indicatorlamp.obj
+         Release\InfoMsg.obj
+         Release\qbasemeter.obj
+         Release\qmeter.obj
+         Release\thermometer.obj
+         Release\thermometerconfig.obj
+         Release\stackedpage.obj
+         Release\sysconfig.obj
+         Scada_v4.vcxproj -> E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Win32\Release\Scada.exe
+     1>Done Building Project "E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada_v4\Scada_v4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.74

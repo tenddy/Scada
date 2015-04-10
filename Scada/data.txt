@@ -1,0 +1,2221 @@
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+state:pre-operational
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+state:pre-operational
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_8:	0
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397534
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397565
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.397412
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_11:	0.397412
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.40     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.434156
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.43     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.434156
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.43     Channel_12:0.00     
+Channel_11:	0.563707
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.56     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.57152
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.571673
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.571856
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.571978
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.571978
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.571978
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.5721
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.5721
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.5721
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.572222
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.572314
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572314
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572436
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572436
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572436
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572558
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572558
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572649
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572771
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572863
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572954
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.572954
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.573046
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573046
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573046
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573138
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_11:	0.573138
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.573229
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.573321
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573321
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573412
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.573412
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573412
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573504
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.573504
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.573595
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.573656
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.573656
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573748
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.573748
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.57384
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.573901
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.573992
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.574053
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574053
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574145
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574206
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.574297
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.574297
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.574358
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574358
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574419
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574419
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574511
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574511
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.574541
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.574602
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574602
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574602
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.574694
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574694
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574694
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574755
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.574816
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574877
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.574877
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.574938
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_11:	0.574938
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.574999
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.57     Channel_12:0.00     
+Channel_11:	0.57506
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575121
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575121
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575182
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575182
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575213
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575213
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575213
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575274
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575274
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575335
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575335
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575396
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575396
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575426
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575488
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575549
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575579
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_11:	0.57561
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575671
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575701
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575732
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575793
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575823
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575823
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575884
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.575915
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.575945
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.576006
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.576006
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.576037
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.576037
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.576067
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.576067
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.576067
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.576098
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.576098
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.576159
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_11:	0.576159
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_11:	0.576189
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.37	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.35	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+state:pre-operational
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
+detect value:   17.36	Channel_9:0.00     Channel_10:0.00     Channel_11:0.58     Channel_12:0.00     
