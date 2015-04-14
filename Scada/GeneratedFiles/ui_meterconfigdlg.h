@@ -131,7 +131,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QStringLiteral("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, -74, 278, 780));
+        scrollAreaWidgetContents->setGeometry(QRect(0, -428, 266, 924));
         verticalLayout = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         gridLayout_5 = new QGridLayout();
@@ -405,7 +405,7 @@ public:
         majorNumSpinBox->setMaximum(1000);
         majorNumSpinBox->setSingleStep(2);
         majorNumSpinBox->setValue(1);
-        majorNumSpinBox->setDisplayIntegerBase(12);
+        majorNumSpinBox->setDisplayIntegerBase(10);
 
         gridLayout_2->addWidget(majorNumSpinBox, 0, 1, 1, 1);
 
