@@ -3,8 +3,12 @@
 DataOperate::DataOperate()
 {
 }
+DataOperate::~DataOperate()
+{
+}
 
 //距离值获取
+
 double DataOperate::getDistance(QString data)
 {
     QString hun=data.mid(21,2);

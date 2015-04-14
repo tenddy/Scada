@@ -428,9 +428,4 @@
       <Filter>Generated Files</Filter>
     </CustomBuild>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_meterconfigdlg.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-  </ItemGroup>
 </Project>
