@@ -33,6 +33,7 @@ MonitorSystem::MonitorSystem(QWidget *parent)
 
     setWindowFlags(Qt::WindowStaysOnTopHint | Qt::FramelessWindowHint);
 
+    //setCursor(Qt::BlankCursor);
     showFullScreen();
 }
 
@@ -130,7 +131,8 @@ void MonitorSystem::createExcelFile()
 
 void MonitorSystem::startProcess(QString filePath)
 {
-    m_process->start(filePath);
+    //m_process->start(filePath);
+    m_process->startDetached(filePath);
 }
 
 
@@ -312,7 +314,7 @@ void MonitorSystem::exitSystem()
 		a.exec();
 		if(a.clickedButton() == okButton1)
 		{
-			m_process->state()==QProcess::NotRunning;
+			//m_process->state() = QProcess::NotRunning;
 			m_process->NormalExit;
 			m_process->close();
 			m_process->kill();

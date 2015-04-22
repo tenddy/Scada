@@ -1,37 +1,11 @@
-﻿Build started 4/14/2015 3:03:11 PM.
+﻿Build started 4/22/2015 2:47:47 PM.
      1>Project "E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\Scada.vcxproj" on node 2 (Build target(s)).
-     1>CustomBuild:
-         Uic'ing sysconfig.ui...
-         拒绝访问。
-         Uic'ing meterconfigdlg.ui...
-       ClCompile:
-         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\Distance /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\src /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada /IC:\Users\jingchuan\Desktop\Scada_v5\Scada\src /IC:\Users\jingchuan\Desktop\Scada_v5\MonitorSystem /ID:\che\Scada_v5\Scada\Distance /ID:\che\Scada_v5\Scada\src /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /ID:\Scada_v5\Scada\Distance /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\Distance /ID:\Scada_v5\Scada\src /ID:\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\src /I.\GeneratedFiles /I. /I.\GeneratedFiles\Release /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtQml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSvg /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXmlPatterns /I.\CanOpen /I..\Distance /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_SQL_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_meterconfigdlg.cpp GeneratedFiles\Release\moc_pageconfig.cpp GeneratedFiles\Release\moc_scada.cpp main.cpp meterconfigdlg.cpp pageconfig.cpp scada.cpp sysconfig.cpp
-         moc_meterconfigdlg.cpp
-         moc_pageconfig.cpp
-         moc_scada.cpp
-     1>e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopenprotocol.h(5): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\canopentestdlg.h(7): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopentestdlg.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>e:\documents\programfiles\qtprograms\scada\scada\scada\generatedfiles\release\../../scada.h(26): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\scada.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>GeneratedFiles\Release\moc_scada.cpp(9): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\generatedfiles\release\moc_scada.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
-         main.cpp
-     1>e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopenprotocol.h(5): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\canopentestdlg.h(7): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopentestdlg.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>e:\documents\programfiles\qtprograms\scada\scada\scada\scada.h(26): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\scada.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>main.cpp(1): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\main.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
-         meterconfigdlg.cpp
-         pageconfig.cpp
-         scada.cpp
-     1>e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopenprotocol.h(5): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\canopentestdlg.h(7): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopentestdlg.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>e:\documents\programfiles\qtprograms\scada\scada\scada\scada.h(26): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\scada.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>scada.cpp(1): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\scada.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
-         sysconfig.cpp
-     1>E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\..\CanOpen\canopenprotocol.h(5): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>sysconfig.cpp(24): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\sysconfig.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
-         Generating Code...
-     1>e:\documents\programfiles\qtprograms\scada\scada\scada\sysconfig.cpp(152): warning C4700: uninitialized local variable 'numRows' used
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\Distance /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\src /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada /IC:\Users\jingchuan\Desktop\Scada_v5\Scada\src /IC:\Users\jingchuan\Desktop\Scada_v5\MonitorSystem /ID:\che\Scada_v5\Scada\Distance /ID:\che\Scada_v5\Scada\src /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /ID:\Scada_v5\Scada\Distance /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\Distance /ID:\Scada_v5\Scada\src /ID:\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\src /I.\GeneratedFiles /I. /I.\GeneratedFiles\Release /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtQml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSvg /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXmlPatterns /I.\CanOpen /I..\Distance /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_SQL_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SettingFiles.cpp
+         SettingFiles.cpp
        Link:
-         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Win32\Release\\Scada.exe" /NOLOGO /LIBPATH:E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\IEICAN02LIB /LIBPATH:C:\Users\jingchuan\Desktop\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\che\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib Qt5SerialPort.lib IEICAN02.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Win32\Release\Scada.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Win32\Release\Scada.lib" /MACHINE:X86 /SAFESEH Release\CanNode.obj
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Win32\Release\\Scada.exe" /NOLOGO /LIBPATH:E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\IEICAN02LIB /LIBPATH:C:\Users\jingchuan\Desktop\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\che\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib Qt5SerialPort.lib IEICAN02.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Win32\Release\Scada.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Win32\Release\Scada.lib" /MACHINE:X86 /SAFESEH Release\addscaledata.obj
+         Release\CanNode.obj
          Release\canopenprotocol.obj
          Release\canopentestdlg.obj
          Release\channel.obj
@@ -44,6 +18,7 @@
          Release\serialdialog.obj
          Release\settingsdialog.obj
          Release\qrc_scada.obj
+         Release\moc_addscaledata.obj
          Release\moc_basepage.obj
          Release\moc_canopenprotocol.obj
          Release\moc_canopentestdlg.obj
@@ -60,6 +35,7 @@
          Release\moc_pageconfigdlg.obj
          Release\moc_qbasemeter.obj
          Release\moc_qmeter.obj
+         Release\moc_qscalesetting.obj
          Release\moc_scada.obj
          Release\moc_serialdialog.obj
          Release\moc_settingsdialog.obj
@@ -72,6 +48,7 @@
          Release\meterconfigdlg.obj
          Release\pageconfig.obj
          Release\pageconfigdlg.obj
+         Release\qscalesetting.obj
          Release\scada.obj
          Release\SettingFiles.obj
          Release\basepage.obj
@@ -91,4 +68,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:28.90
+Time Elapsed 00:00:02.80

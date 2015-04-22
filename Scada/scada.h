@@ -74,6 +74,8 @@ private slots:
 	void on_deleteDataBaseAction();
 	void on_previewAction();
 	void on_savePageConfig();
+    
+    void on_statusBar(const QString msg);
 
 };
 

@@ -9,6 +9,8 @@
 #include <QTableWidgetItem>
 #include "channel.h"
 #include <qset.h>
+#include <QStatusBar>
+
 class SysConfig : public QWidget
 {
 	Q_OBJECT
@@ -18,9 +20,10 @@ public:
 	~SysConfig();
 	void clearAllData(QString tableName,QString database="scada");
     QMap<int, QString> getChannelMap(); 
+
 private:
 	Ui::SysConfig SysConfigUI;
-	
+
 	unsigned int mask;							//预警和报警标志位
 	QMap<int,QString> m_channelIdMap;			//id与已设置通道hash表
 	
@@ -36,7 +39,7 @@ private:
 
 	void createUI();
 	void connectUI();
-	void initTableHeader();
+	void initTableWidget();
 	bool insertData(int row, int column, QString str);
 	bool insertData(int row, int column, int index);
 	void setGroupBoxState(int mask);
@@ -49,11 +52,13 @@ private:
 
 protected:
 	//void resizeEvent(QResizeEvent *);
+
 signals:
 	void updateData();
 	void setChannel(QString channelName,bool b_flag);
-private slots:
+    void errorMsg(const QString msg);
 
+private slots:
 	void on_setChannel(QString channelName);
 	void on_dataNameChanged(QString);
 	void on_DataUintChanged(QString);

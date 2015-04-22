@@ -5,6 +5,7 @@
 ////////////////////////////////////////////////////////////////////////////
 #ifndef ICANAPI_H_
 #define ICANAPI_H_
+
 #ifdef IEICAN02_EXPORTS
 #define ICAN_API extern "C" __declspec(dllexport)
 #else
@@ -85,6 +86,7 @@
 /*****************************************************************
 **	data_types
 *****************************************************************/
+
 #ifdef _MSC_VER
 	#pragma pack(1)			// set aligment to 1 byte (Microsoft style)
 #endif // _MSC_VER

@@ -20,7 +20,8 @@ class BasePage : public QWidget
 	Q_OBJECT
 
 public:
-	BasePage(int id,QString pageName = QStringLiteral("新页面"),int row = 2, int column = 3 ,int maxLamps = 5,QWidget *parent = 0);
+	BasePage(int id,QString pageName = QStringLiteral("新页面"),int row = 2, 
+        int column = 3 ,int maxLamps = 10,QWidget *parent = 0);
 	//BasePage(const BasePage *);
 	~BasePage();
 	int getId() const {return m_id;} 

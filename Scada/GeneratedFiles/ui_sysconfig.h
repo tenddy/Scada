@@ -94,12 +94,12 @@ public:
         SysConfig->setWindowModality(Qt::WindowModal);
         SysConfig->setEnabled(true);
         SysConfig->resize(800, 600);
-        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::MinimumExpanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(SysConfig->sizePolicy().hasHeightForWidth());
         SysConfig->setSizePolicy(sizePolicy);
-        SysConfig->setMinimumSize(QSize(800, 600));
+        SysConfig->setMinimumSize(QSize(800, 580));
         SysConfig->setMaximumSize(QSize(1920, 1080));
         horizontalLayout_2 = new QHBoxLayout(SysConfig);
         horizontalLayout_2->setSpacing(6);
@@ -113,19 +113,22 @@ public:
         verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
         scrollArea = new QScrollArea(SysConfig);
         scrollArea->setObjectName(QStringLiteral("scrollArea"));
-        sizePolicy.setHeightForWidth(scrollArea->sizePolicy().hasHeightForWidth());
-        scrollArea->setSizePolicy(sizePolicy);
+        QSizePolicy sizePolicy1(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(scrollArea->sizePolicy().hasHeightForWidth());
+        scrollArea->setSizePolicy(sizePolicy1);
         scrollArea->setMinimumSize(QSize(300, 0));
         scrollArea->setMaximumSize(QSize(16777215, 16777215));
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QStringLiteral("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 282, 638));
-        QSizePolicy sizePolicy1(QSizePolicy::Maximum, QSizePolicy::Preferred);
-        sizePolicy1.setHorizontalStretch(0);
-        sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(scrollAreaWidgetContents->sizePolicy().hasHeightForWidth());
-        scrollAreaWidgetContents->setSizePolicy(sizePolicy1);
+        scrollAreaWidgetContents->setGeometry(QRect(0, -212, 319, 745));
+        QSizePolicy sizePolicy2(QSizePolicy::Maximum, QSizePolicy::Preferred);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(scrollAreaWidgetContents->sizePolicy().hasHeightForWidth());
+        scrollAreaWidgetContents->setSizePolicy(sizePolicy2);
         verticalLayout_3 = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout_3->setSpacing(6);
         verticalLayout_3->setContentsMargins(11, 11, 11, 11);
@@ -149,11 +152,11 @@ public:
         gridLayout_6->setObjectName(QStringLiteral("gridLayout_6"));
         labelChannel = new QLabel(groupBoxSensor);
         labelChannel->setObjectName(QStringLiteral("labelChannel"));
-        QSizePolicy sizePolicy2(QSizePolicy::Fixed, QSizePolicy::Preferred);
-        sizePolicy2.setHorizontalStretch(0);
-        sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(labelChannel->sizePolicy().hasHeightForWidth());
-        labelChannel->setSizePolicy(sizePolicy2);
+        QSizePolicy sizePolicy3(QSizePolicy::Fixed, QSizePolicy::Preferred);
+        sizePolicy3.setHorizontalStretch(0);
+        sizePolicy3.setVerticalStretch(0);
+        sizePolicy3.setHeightForWidth(labelChannel->sizePolicy().hasHeightForWidth());
+        labelChannel->setSizePolicy(sizePolicy3);
         labelChannel->setMinimumSize(QSize(0, 3));
         QFont font1;
         font1.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
@@ -177,11 +180,11 @@ public:
         comboBoxChannel = new QComboBox(groupBoxSensor);
         comboBoxChannel->setObjectName(QStringLiteral("comboBoxChannel"));
         comboBoxChannel->setEnabled(true);
-        QSizePolicy sizePolicy3(QSizePolicy::Maximum, QSizePolicy::Fixed);
-        sizePolicy3.setHorizontalStretch(0);
-        sizePolicy3.setVerticalStretch(0);
-        sizePolicy3.setHeightForWidth(comboBoxChannel->sizePolicy().hasHeightForWidth());
-        comboBoxChannel->setSizePolicy(sizePolicy3);
+        QSizePolicy sizePolicy4(QSizePolicy::Maximum, QSizePolicy::Fixed);
+        sizePolicy4.setHorizontalStretch(0);
+        sizePolicy4.setVerticalStretch(0);
+        sizePolicy4.setHeightForWidth(comboBoxChannel->sizePolicy().hasHeightForWidth());
+        comboBoxChannel->setSizePolicy(sizePolicy4);
         comboBoxChannel->setMaximumSize(QSize(150, 16777215));
         QFont font2;
         font2.setFamily(QString::fromUtf8("\345\256\213\344\275\223"));
@@ -194,8 +197,8 @@ public:
 
         labelSensorType = new QLabel(groupBoxSensor);
         labelSensorType->setObjectName(QStringLiteral("labelSensorType"));
-        sizePolicy2.setHeightForWidth(labelSensorType->sizePolicy().hasHeightForWidth());
-        labelSensorType->setSizePolicy(sizePolicy2);
+        sizePolicy3.setHeightForWidth(labelSensorType->sizePolicy().hasHeightForWidth());
+        labelSensorType->setSizePolicy(sizePolicy3);
         QFont font3;
         font3.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
         font3.setPointSize(12);
@@ -209,8 +212,8 @@ public:
 
         comboBoxSensorType = new QComboBox(groupBoxSensor);
         comboBoxSensorType->setObjectName(QStringLiteral("comboBoxSensorType"));
-        sizePolicy3.setHeightForWidth(comboBoxSensorType->sizePolicy().hasHeightForWidth());
-        comboBoxSensorType->setSizePolicy(sizePolicy3);
+        sizePolicy4.setHeightForWidth(comboBoxSensorType->sizePolicy().hasHeightForWidth());
+        comboBoxSensorType->setSizePolicy(sizePolicy4);
         comboBoxSensorType->setMaximumSize(QSize(150, 16777215));
         comboBoxSensorType->setFont(font2);
 
@@ -218,8 +221,8 @@ public:
 
         labelDateType = new QLabel(groupBoxSensor);
         labelDateType->setObjectName(QStringLiteral("labelDateType"));
-        sizePolicy2.setHeightForWidth(labelDateType->sizePolicy().hasHeightForWidth());
-        labelDateType->setSizePolicy(sizePolicy2);
+        sizePolicy3.setHeightForWidth(labelDateType->sizePolicy().hasHeightForWidth());
+        labelDateType->setSizePolicy(sizePolicy3);
         labelDateType->setFont(font3);
         labelDateType->setAlignment(Qt::AlignCenter);
 
@@ -227,8 +230,8 @@ public:
 
         comboBoxDataType = new QComboBox(groupBoxSensor);
         comboBoxDataType->setObjectName(QStringLiteral("comboBoxDataType"));
-        sizePolicy3.setHeightForWidth(comboBoxDataType->sizePolicy().hasHeightForWidth());
-        comboBoxDataType->setSizePolicy(sizePolicy3);
+        sizePolicy4.setHeightForWidth(comboBoxDataType->sizePolicy().hasHeightForWidth());
+        comboBoxDataType->setSizePolicy(sizePolicy4);
         comboBoxDataType->setMaximumSize(QSize(150, 16777215));
         comboBoxDataType->setFont(font2);
 
@@ -236,8 +239,8 @@ public:
 
         labelSensorMax = new QLabel(groupBoxSensor);
         labelSensorMax->setObjectName(QStringLiteral("labelSensorMax"));
-        sizePolicy2.setHeightForWidth(labelSensorMax->sizePolicy().hasHeightForWidth());
-        labelSensorMax->setSizePolicy(sizePolicy2);
+        sizePolicy3.setHeightForWidth(labelSensorMax->sizePolicy().hasHeightForWidth());
+        labelSensorMax->setSizePolicy(sizePolicy3);
         labelSensorMax->setFont(font3);
         labelSensorMax->setAlignment(Qt::AlignCenter);
 
@@ -245,8 +248,8 @@ public:
 
         comboBoxSensorMax = new QComboBox(groupBoxSensor);
         comboBoxSensorMax->setObjectName(QStringLiteral("comboBoxSensorMax"));
-        sizePolicy3.setHeightForWidth(comboBoxSensorMax->sizePolicy().hasHeightForWidth());
-        comboBoxSensorMax->setSizePolicy(sizePolicy3);
+        sizePolicy4.setHeightForWidth(comboBoxSensorMax->sizePolicy().hasHeightForWidth());
+        comboBoxSensorMax->setSizePolicy(sizePolicy4);
         comboBoxSensorMax->setMaximumSize(QSize(150, 16777215));
         comboBoxSensorMax->setFont(font2);
         comboBoxSensorMax->setEditable(true);
@@ -255,8 +258,8 @@ public:
 
         labelSensorMin = new QLabel(groupBoxSensor);
         labelSensorMin->setObjectName(QStringLiteral("labelSensorMin"));
-        sizePolicy2.setHeightForWidth(labelSensorMin->sizePolicy().hasHeightForWidth());
-        labelSensorMin->setSizePolicy(sizePolicy2);
+        sizePolicy3.setHeightForWidth(labelSensorMin->sizePolicy().hasHeightForWidth());
+        labelSensorMin->setSizePolicy(sizePolicy3);
         labelSensorMin->setFont(font3);
         labelSensorMin->setAlignment(Qt::AlignCenter);
 
@@ -264,8 +267,8 @@ public:
 
         comboBoxSensorMin = new QComboBox(groupBoxSensor);
         comboBoxSensorMin->setObjectName(QStringLiteral("comboBoxSensorMin"));
-        sizePolicy3.setHeightForWidth(comboBoxSensorMin->sizePolicy().hasHeightForWidth());
-        comboBoxSensorMin->setSizePolicy(sizePolicy3);
+        sizePolicy4.setHeightForWidth(comboBoxSensorMin->sizePolicy().hasHeightForWidth());
+        comboBoxSensorMin->setSizePolicy(sizePolicy4);
         comboBoxSensorMin->setMaximumSize(QSize(150, 16777215));
         comboBoxSensorMin->setFont(font2);
         comboBoxSensorMin->setEditable(true);
@@ -285,8 +288,8 @@ public:
         gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
         labelDataName = new QLabel(groupBoxData);
         labelDataName->setObjectName(QStringLiteral("labelDataName"));
-        sizePolicy2.setHeightForWidth(labelDataName->sizePolicy().hasHeightForWidth());
-        labelDataName->setSizePolicy(sizePolicy2);
+        sizePolicy3.setHeightForWidth(labelDataName->sizePolicy().hasHeightForWidth());
+        labelDataName->setSizePolicy(sizePolicy3);
         labelDataName->setFont(font1);
         labelDataName->setLineWidth(0);
         labelDataName->setAlignment(Qt::AlignCenter);
@@ -295,11 +298,11 @@ public:
 
         comboBoxDataName = new QComboBox(groupBoxData);
         comboBoxDataName->setObjectName(QStringLiteral("comboBoxDataName"));
-        QSizePolicy sizePolicy4(QSizePolicy::Fixed, QSizePolicy::Fixed);
-        sizePolicy4.setHorizontalStretch(0);
-        sizePolicy4.setVerticalStretch(0);
-        sizePolicy4.setHeightForWidth(comboBoxDataName->sizePolicy().hasHeightForWidth());
-        comboBoxDataName->setSizePolicy(sizePolicy4);
+        QSizePolicy sizePolicy5(QSizePolicy::Fixed, QSizePolicy::Fixed);
+        sizePolicy5.setHorizontalStretch(0);
+        sizePolicy5.setVerticalStretch(0);
+        sizePolicy5.setHeightForWidth(comboBoxDataName->sizePolicy().hasHeightForWidth());
+        comboBoxDataName->setSizePolicy(sizePolicy5);
         comboBoxDataName->setMaximumSize(QSize(150, 16777215));
         comboBoxDataName->setFont(font2);
         comboBoxDataName->setEditable(true);
@@ -308,8 +311,8 @@ public:
 
         labelDataUint = new QLabel(groupBoxData);
         labelDataUint->setObjectName(QStringLiteral("labelDataUint"));
-        sizePolicy2.setHeightForWidth(labelDataUint->sizePolicy().hasHeightForWidth());
-        labelDataUint->setSizePolicy(sizePolicy2);
+        sizePolicy3.setHeightForWidth(labelDataUint->sizePolicy().hasHeightForWidth());
+        labelDataUint->setSizePolicy(sizePolicy3);
         labelDataUint->setFont(font3);
         labelDataUint->setAlignment(Qt::AlignCenter);
 
@@ -317,8 +320,8 @@ public:
 
         comboBoxDataUint = new QComboBox(groupBoxData);
         comboBoxDataUint->setObjectName(QStringLiteral("comboBoxDataUint"));
-        sizePolicy4.setHeightForWidth(comboBoxDataUint->sizePolicy().hasHeightForWidth());
-        comboBoxDataUint->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(comboBoxDataUint->sizePolicy().hasHeightForWidth());
+        comboBoxDataUint->setSizePolicy(sizePolicy5);
         comboBoxDataUint->setMaximumSize(QSize(150, 16777215));
         comboBoxDataUint->setFont(font2);
 
@@ -326,8 +329,8 @@ public:
 
         labelMeterType = new QLabel(groupBoxData);
         labelMeterType->setObjectName(QStringLiteral("labelMeterType"));
-        sizePolicy2.setHeightForWidth(labelMeterType->sizePolicy().hasHeightForWidth());
-        labelMeterType->setSizePolicy(sizePolicy2);
+        sizePolicy3.setHeightForWidth(labelMeterType->sizePolicy().hasHeightForWidth());
+        labelMeterType->setSizePolicy(sizePolicy3);
         labelMeterType->setFont(font1);
         labelMeterType->setAlignment(Qt::AlignCenter);
 
@@ -335,8 +338,8 @@ public:
 
         comboBoxMeterType = new QComboBox(groupBoxData);
         comboBoxMeterType->setObjectName(QStringLiteral("comboBoxMeterType"));
-        sizePolicy4.setHeightForWidth(comboBoxMeterType->sizePolicy().hasHeightForWidth());
-        comboBoxMeterType->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(comboBoxMeterType->sizePolicy().hasHeightForWidth());
+        comboBoxMeterType->setSizePolicy(sizePolicy5);
         comboBoxMeterType->setMaximumSize(QSize(150, 16777215));
         QFont font4;
         font4.setFamily(QString::fromUtf8("\345\256\213\344\275\223"));
@@ -359,8 +362,8 @@ public:
         horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
         labelInhibitTime = new QLabel(groupBox_5);
         labelInhibitTime->setObjectName(QStringLiteral("labelInhibitTime"));
-        sizePolicy2.setHeightForWidth(labelInhibitTime->sizePolicy().hasHeightForWidth());
-        labelInhibitTime->setSizePolicy(sizePolicy2);
+        sizePolicy3.setHeightForWidth(labelInhibitTime->sizePolicy().hasHeightForWidth());
+        labelInhibitTime->setSizePolicy(sizePolicy3);
         labelInhibitTime->setFont(font3);
         labelInhibitTime->setAlignment(Qt::AlignCenter);
 
@@ -368,8 +371,8 @@ public:
 
         comboBoxInhibitTime = new QComboBox(groupBox_5);
         comboBoxInhibitTime->setObjectName(QStringLiteral("comboBoxInhibitTime"));
-        sizePolicy4.setHeightForWidth(comboBoxInhibitTime->sizePolicy().hasHeightForWidth());
-        comboBoxInhibitTime->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(comboBoxInhibitTime->sizePolicy().hasHeightForWidth());
+        comboBoxInhibitTime->setSizePolicy(sizePolicy5);
         comboBoxInhibitTime->setMaximumSize(QSize(100, 16777215));
         comboBoxInhibitTime->setFont(font2);
         comboBoxInhibitTime->setEditable(true);
@@ -378,8 +381,8 @@ public:
 
         comboBoxTimeUint = new QComboBox(groupBox_5);
         comboBoxTimeUint->setObjectName(QStringLiteral("comboBoxTimeUint"));
-        sizePolicy4.setHeightForWidth(comboBoxTimeUint->sizePolicy().hasHeightForWidth());
-        comboBoxTimeUint->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(comboBoxTimeUint->sizePolicy().hasHeightForWidth());
+        comboBoxTimeUint->setSizePolicy(sizePolicy5);
         comboBoxTimeUint->setMaximumSize(QSize(50, 16777215));
         comboBoxTimeUint->setFont(font4);
 
@@ -390,8 +393,8 @@ public:
 
         groupBox_3 = new QGroupBox(scrollAreaWidgetContents);
         groupBox_3->setObjectName(QStringLiteral("groupBox_3"));
-        sizePolicy.setHeightForWidth(groupBox_3->sizePolicy().hasHeightForWidth());
-        groupBox_3->setSizePolicy(sizePolicy);
+        sizePolicy1.setHeightForWidth(groupBox_3->sizePolicy().hasHeightForWidth());
+        groupBox_3->setSizePolicy(sizePolicy1);
         groupBox_3->setMinimumSize(QSize(0, 1));
         groupBox_3->setMaximumSize(QSize(500, 16777215));
         QFont font5;
@@ -431,8 +434,8 @@ public:
         checkBoxLWarning = new QCheckBox(groupBoxWarning);
         checkBoxLWarning->setObjectName(QStringLiteral("checkBoxLWarning"));
         checkBoxLWarning->setEnabled(false);
-        sizePolicy4.setHeightForWidth(checkBoxLWarning->sizePolicy().hasHeightForWidth());
-        checkBoxLWarning->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(checkBoxLWarning->sizePolicy().hasHeightForWidth());
+        checkBoxLWarning->setSizePolicy(sizePolicy5);
 
         gridLayout_2->addWidget(checkBoxLWarning, 0, 0, 1, 1);
 
@@ -442,7 +445,7 @@ public:
         lineEditLWarning->setMaximumSize(QSize(150, 16777215));
         QFont font7;
         font7.setFamily(QString::fromUtf8("\345\256\213\344\275\223"));
-        font7.setUnderline(true);
+        font7.setUnderline(false);
         font7.setStyleStrategy(QFont::PreferAntialias);
         lineEditLWarning->setFont(font7);
         lineEditLWarning->setProperty("LowerWarning", QVariant(0));
@@ -452,8 +455,8 @@ public:
         checkBoxHWarning = new QCheckBox(groupBoxWarning);
         checkBoxHWarning->setObjectName(QStringLiteral("checkBoxHWarning"));
         checkBoxHWarning->setEnabled(false);
-        sizePolicy4.setHeightForWidth(checkBoxHWarning->sizePolicy().hasHeightForWidth());
-        checkBoxHWarning->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(checkBoxHWarning->sizePolicy().hasHeightForWidth());
+        checkBoxHWarning->setSizePolicy(sizePolicy5);
 
         gridLayout_2->addWidget(checkBoxHWarning, 1, 0, 1, 1);
 
@@ -488,8 +491,8 @@ public:
         gridLayout_3->setVerticalSpacing(14);
         checkBoxLAlarm = new QCheckBox(groupBoxAlarm);
         checkBoxLAlarm->setObjectName(QStringLiteral("checkBoxLAlarm"));
-        sizePolicy4.setHeightForWidth(checkBoxLAlarm->sizePolicy().hasHeightForWidth());
-        checkBoxLAlarm->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(checkBoxLAlarm->sizePolicy().hasHeightForWidth());
+        checkBoxLAlarm->setSizePolicy(sizePolicy5);
         checkBoxLAlarm->setChecked(false);
 
         gridLayout_3->addWidget(checkBoxLAlarm, 0, 0, 1, 1);
@@ -504,8 +507,8 @@ public:
 
         checkBoxHAlarm = new QCheckBox(groupBoxAlarm);
         checkBoxHAlarm->setObjectName(QStringLiteral("checkBoxHAlarm"));
-        sizePolicy4.setHeightForWidth(checkBoxHAlarm->sizePolicy().hasHeightForWidth());
-        checkBoxHAlarm->setSizePolicy(sizePolicy4);
+        sizePolicy5.setHeightForWidth(checkBoxHAlarm->sizePolicy().hasHeightForWidth());
+        checkBoxHAlarm->setSizePolicy(sizePolicy5);
         checkBoxHAlarm->setChecked(false);
 
         gridLayout_3->addWidget(checkBoxHAlarm, 1, 0, 1, 1);
@@ -644,6 +647,9 @@ public:
     void retranslateUi(QWidget *SysConfig)
     {
         SysConfig->setWindowTitle(QApplication::translate("SysConfig", "SysConfig", 0));
+#ifndef QT_NO_STATUSTIP
+        SysConfig->setStatusTip(QString());
+#endif // QT_NO_STATUSTIP
         groupBoxSensor->setTitle(QApplication::translate("SysConfig", "\344\274\240\346\204\237\345\231\250\350\256\276\347\275\256", 0));
         labelChannel->setText(QApplication::translate("SysConfig", "\351\200\232\351\201\223\350\256\276\347\275\256", 0));
         labelSensorType->setText(QApplication::translate("SysConfig", "\344\274\240\346\204\237\345\231\250\347\261\273\345\236\213", 0));
@@ -711,6 +717,12 @@ public:
          << QApplication::translate("SysConfig", "\344\273\252\350\241\250\347\233\230", 0)
          << QApplication::translate("SysConfig", "\346\270\251\345\272\246\350\256\241", 0)
          << QApplication::translate("SysConfig", "\346\214\207\347\244\272\347\201\257", 0)
+         << QApplication::translate("SysConfig", "\345\205\205\347\224\265\346\214\207\347\244\272\347\201\257", 0)
+         << QApplication::translate("SysConfig", "\345\210\271\350\275\246\345\210\266\345\212\250\346\214\207\347\244\272\347\201\257", 0)
+         << QApplication::translate("SysConfig", "\351\242\204\347\203\255\346\214\207\347\244\272\347\201\257", 0)
+         << QApplication::translate("SysConfig", "\345\210\266\345\212\250\345\205\205\345\216\213\346\254\240\345\216\213\346\214\207\347\244\272\347\201\257", 0)
+         << QApplication::translate("SysConfig", "\347\274\270\347\233\226\346\270\251\345\272\246\346\214\207\347\244\272\347\201\257", 0)
+         << QApplication::translate("SysConfig", "\346\234\272\346\262\271\346\270\251\345\272\246\346\214\207\347\244\272\347\201\257", 0)
         );
         groupBox_5->setTitle(QApplication::translate("SysConfig", "\346\225\260\346\215\256\345\255\230\345\202\250\350\256\276\347\275\256", 0));
         labelInhibitTime->setText(QApplication::translate("SysConfig", "\345\255\230\345\202\250\345\221\250\346\234\237", 0));

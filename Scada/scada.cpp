@@ -129,6 +129,8 @@ void Scada::connectUI()
 	connect(m_sysconfig,SIGNAL(update()),m_dataManager,SLOT(tableChanged()));
     connect(m_serialPortAction,SIGNAL(triggered()),m_serialPort,SLOT(show()));
     connect(m_serialPortConfigAction,SIGNAL(triggered()),m_serialPortSetting,SLOT(show()));
+
+    connect(m_sysconfig, SIGNAL(errorMsg(const QString msg)), this, SLOT(on_statusBar(const QString msg)));
 }
 
 void Scada::on_sysConfigAction()
@@ -169,4 +171,10 @@ void Scada::on_previewAction()
 void Scada::on_savePageConfig()
 {
 	m_pageconfig->savePageConfig();
+}
+
+void Scada::on_statusBar(const QString msg)
+{
+   setStatusTip(msg); 
+   QMessageBox::about(0, "debug", msg);
 }

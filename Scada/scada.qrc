@@ -19,5 +19,16 @@
         <file alias="pageedit1">Resources/edit.png</file>
         <file alias="setting">Resources/setting.png</file>
         <file alias="systemconfigure">Resources/systemconfigure.png</file>
+        <file alias="fuelAlarm">Resources/1184520.png</file>
+        <file alias="redLamp">Resources/alarm_red.png</file>
+        <file alias="yellowLamp">Resources/alarm_yellow.png</file>
+        <file alias="greenLamp">Resources/alarm_green.png</file>
+        <file alias="indicator0">Resources/indicator_green.png</file>
+        <file alias="indicator1">Resources/发电机充电报警指示灯.png</file>
+        <file alias="indicator3">Resources/预热指示灯终极版.png</file>
+        <file alias="indicator6">Resources/机油温度报警指示灯.png</file>
+        <file alias="indicator2">Resources/停车制动指示灯.png</file>
+        <file alias="indicator4">Resources/制动充压欠压指示灯.png</file>
+        <file alias="indicator5">Resources/缸盖温度报警指示灯.png</file>
     </qresource>
 </RCC>

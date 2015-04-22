@@ -37,6 +37,9 @@
   <property name="windowTitle">
    <string>SysConfig</string>
   </property>
+  <property name="statusTip">
+   <string comment="123" extracomment="243234"/>
+  </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -69,7 +72,7 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>0</y>
+            <y>-212</y>
             <width>319</width>
             <height>745</height>
            </rect>
@@ -793,6 +796,36 @@
                     <string>指示灯</string>
                    </property>
                   </item>
+                  <item>
+                   <property name="text">
+                    <string>充电指示灯</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>刹车制动指示灯</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>预热指示灯</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>制动充压欠压指示灯</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>缸盖温度指示灯</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>机油温度指示灯</string>
+                   </property>
+                  </item>
                  </widget>
                 </item>
                </layout>
@@ -1059,7 +1092,7 @@
                      <property name="font">
                       <font>
                        <family>宋体</family>
-                       <underline>true</underline>
+                       <underline>false</underline>
                        <stylestrategy>PreferAntialias</stylestrategy>
                       </font>
                      </property>
@@ -1341,12 +1374,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>85</x>
-     <y>297</y>
+     <x>131</x>
+     <y>121</y>
     </hint>
     <hint type="destinationlabel">
-     <x>154</x>
-     <y>298</y>
+     <x>297</x>
+     <y>123</y>
     </hint>
    </hints>
   </connection>
@@ -1357,12 +1390,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>81</x>
-     <y>257</y>
+     <x>116</x>
+     <y>176</y>
     </hint>
     <hint type="destinationlabel">
-     <x>69</x>
-     <y>295</y>
+     <x>115</x>
+     <y>121</y>
     </hint>
    </hints>
   </connection>
@@ -1373,12 +1406,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>55</x>
-     <y>263</y>
+     <x>90</x>
+     <y>176</y>
     </hint>
     <hint type="destinationlabel">
-     <x>50</x>
-     <y>346</y>
+     <x>96</x>
+     <y>163</y>
     </hint>
    </hints>
   </connection>
@@ -1389,12 +1422,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>112</x>
-     <y>338</y>
+     <x>147</x>
+     <y>163</y>
     </hint>
     <hint type="destinationlabel">
-     <x>183</x>
-     <y>347</y>
+     <x>297</x>
+     <y>165</y>
     </hint>
    </hints>
   </connection>
@@ -1405,12 +1438,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>129</x>
-     <y>437</y>
+     <x>147</x>
+     <y>252</y>
     </hint>
     <hint type="destinationlabel">
-     <x>165</x>
-     <y>429</y>
+     <x>297</x>
+     <y>254</y>
     </hint>
    </hints>
   </connection>
@@ -1421,12 +1454,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>100</x>
-     <y>476</y>
+     <x>146</x>
+     <y>293</y>
     </hint>
     <hint type="destinationlabel">
-     <x>172</x>
-     <y>475</y>
+     <x>297</x>
+     <y>295</y>
     </hint>
    </hints>
   </connection>
@@ -1437,12 +1470,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>151</x>
-     <y>394</y>
+     <x>186</x>
+     <y>306</y>
     </hint>
     <hint type="destinationlabel">
-     <x>52</x>
-     <y>486</y>
+     <x>98</x>
+     <y>293</y>
     </hint>
    </hints>
   </connection>
@@ -1453,12 +1486,12 @@
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>128</x>
-     <y>392</y>
+     <x>163</x>
+     <y>306</y>
     </hint>
     <hint type="destinationlabel">
-     <x>90</x>
-     <y>443</y>
+     <x>136</x>
+     <y>252</y>
     </hint>
    </hints>
   </connection>

@@ -13,6 +13,11 @@ InfoMsg::InfoMsg(void)
 	m_errormode = "a";
 }
 
+InfoMsg::InfoMsg(const char *fileName, const char *mode)
+{
+    strcpy(m_filename, fileName);
+    strcpy(m_mode, mode);
+}
 
 InfoMsg::~InfoMsg(void)
 {
@@ -80,6 +85,19 @@ bool InfoMsg::info(FILE *file,const char *format,...)
 	vfprintf(file,format,ap);
 	va_end(ap);
 	return true;
+}
+
+bool InfoMsg::info_write(const char *format, ...)
+{
+    FILE *file = fopen(m_filename,m_mode);
+    if(file == NULL)
+        return false;
+    va_list ap;
+    va_start(ap,format);
+    vfprintf(file,format,ap);
+    va_end(ap);
+    fclose(file);
+    return true;
 }
 
 /*read data from stream*/

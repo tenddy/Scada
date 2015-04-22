@@ -23,12 +23,12 @@
 #include "SettingFiles.h"
 #include "..\CanOpen\canopenprotocol.h"
 #include <QTableView>
+
 SysConfig::SysConfig(QWidget *parent)
 	: QWidget(parent)
 {
 	SysConfigUI.setupUi(this);
-	mask =0;			//预警值和报警值标志位
-	MaxRow =10;			//tableWidget中最大行数
+	mask =0;			//预警值和报警值标志位                  +
 	MaxColumn = 10;		//tableWidget最大列数
 	comboRow = -1;
 	SelectionRow = -1;
@@ -60,6 +60,7 @@ void SysConfig::createUI()
     int counts = chNum[0] + chNum[2];
     for(int i= 0; i<chNum[0] + chNum[2]; i++)
         SysConfigUI.comboBoxChannel->insertItem(i,QString("Channel_%1").arg(i+1));
+   //SysConfigUI.comboBoxMeterType->insertSeparator(5);
    // QMessageBox::about(this,"num",QString::number(chNum[0]+chNum[2]));
 	QRegExp regExp("[-]?\\d+\\.\\d{0,2}");
 	QRegExp regExp1("[0-9]\\d");
@@ -72,7 +73,7 @@ void SysConfig::createUI()
 	SysConfigUI.comboBoxSensorMax->setValidator(rxValidator);
 	SysConfigUI.comboBoxSensorMin->setValidator(rxValidator);
 	SysConfigUI.comboBoxInhibitTime->setValidator(rxValidator1);
-	initTableHeader();
+	initTableWidget();
 }
 
 /*
@@ -110,10 +111,12 @@ void SysConfig::connectUI()
 	connect(SysConfigUI.groupBoxAlarm,SIGNAL(clicked(bool)),this,SLOT(on_AlarmChecked(bool)));
 	connect(SysConfigUI.checkBoxLAlarm,SIGNAL(clicked(bool)),this,SLOT(on_LowerAlarmChecked(bool)));
 	connect(SysConfigUI.checkBoxHAlarm,SIGNAL(clicked(bool)),this,SLOT(on_HighAlarmChecked(bool)));
-	connect(SysConfigUI.lineEditLWarning,SIGNAL(textEdited(const QString)),this,SLOT(on_LowerWarningChanged(const QString)));
+	
+    
+    connect(SysConfigUI.lineEditLWarning,SIGNAL(textEdited(const QString)),this,SLOT(on_LowerWarningChanged(const QString)));
 	connect(SysConfigUI.lineEditHWarning,SIGNAL(textEdited(const QString)),this,SLOT(on_HighWarningChanged(const QString)));
-	connect(SysConfigUI.lineEditLAlarm,SIGNAL(textEdited(const QString)),this,SLOT(on_LowerAlarmChanged(const QString)));
-	connect(SysConfigUI.lineEditHAlarm,SIGNAL(textEdited(const QString)),this,SLOT(on_HighAlarmChanged(const QString)));
+	connect(SysConfigUI.lineEditLAlarm,SIGNAL(textChanged(const QString)),this,SLOT(on_LowerAlarmChanged(const QString)));
+	connect(SysConfigUI.lineEditHAlarm,SIGNAL(textChanged(const QString)),this,SLOT(on_HighAlarmChanged(const QString)));
 	
 	connect(SysConfigUI.tableWidget,SIGNAL(cellDoubleClicked(int,int)),this,SLOT(on_tableWidgetCellDoubleClicked(int,int)));
 	connect(SysConfigUI.tableWidget,SIGNAL(cellClicked(int,int)),this,SLOT(on_cellClicked(int,int)));
@@ -136,7 +139,7 @@ void SysConfig::connectUI()
 **  Copyright(C) teddy.tu
 **  All rights reserved.
 */ 
-void SysConfig::initTableHeader()
+void SysConfig::initTableWidget()
 {
 	/*添加TableWidget的列名称*/
 	QStringList strlist;
@@ -147,7 +150,7 @@ void SysConfig::initTableHeader()
 	//strlist<<QString("a")<<QString("b")<<QString("c")<<QString("d")<<QString("e")<<QString("f")<<QString("g")
 		//<<QString("h")<<QString("i")<<QString("j")<<QString("k")<<QString("l")<<QString("m")<<QString("n")<<QString("o");
 	MaxColumn = strlist.count();
-    int numRows;
+    int numRows = 0;
    
 	SysConfigUI.tableWidget->setHorizontalHeaderItem(numRows,new QTableWidgetItem("strlist"));
 	/*从configdb中读取已存储的数据*/
@@ -300,7 +303,15 @@ void SysConfig::on_MeterTypeChanged(int type)
 {
 	//int row = SelectionRow;
 	//if(row >= 0)
-	insertData(SelectionRow,4,type);
+	//insertData(SelectionRow,4,type);
+    insertData(SelectionRow, 4, SysConfigUI.comboBoxMeterType->currentText());
+    if(type >= 5)
+    {
+        /* SysConfigUI.lineEditLWarning->setText("1");
+        SysConfigUI.lineEditHWarning->setText("1");
+        SysConfigUI.lineEditLAlarm->setText("1");
+        SysConfigUI.lineEditHAlarm->setText("1");*/
+    }
 }
 
 void SysConfig::on_SensorType(QString type)
@@ -355,11 +366,37 @@ void SysConfig::on_HighWarningChanged(QString val)
 
 void SysConfig::on_LowerAlarmChanged(QString val)
 {
-	insertData(SelectionRow,12,val);
+    double lowerAlarmVal = SysConfigUI.lineEditLAlarm->text().toDouble();
+    double highAlarmVal = SysConfigUI.lineEditHAlarm->text().toDouble();
+    if((lowerAlarmVal > highAlarmVal) && SysConfigUI.checkBoxHAlarm->isChecked())
+    {
+        //QMessageBox::warning(this, "Error", QString::fromLocal8Bit("报警下限值大于报警上限值，请重新设置报警值！"));
+        setStatusTip("status tip:lower");
+        SysConfigUI.lineEditLWarning->setText("");
+        emit errorMsg(QString::fromLocal8Bit("报警下限值大于报警上限值，请重新设置报警值！"));
+    }
+    else
+    {
+        setStatusTip("");
+        insertData(SelectionRow,12,SysConfigUI.lineEditLAlarm->text());
+        insertData(SelectionRow,13,SysConfigUI.lineEditHAlarm->text());
+    }
 }	
 void SysConfig::on_HighAlarmChanged(QString val)
 {
-	insertData(SelectionRow,13,val);
+    double lowerAlarmVal = SysConfigUI.lineEditLAlarm->text().toDouble();
+    double highAlarmVal =  SysConfigUI.lineEditHAlarm->text().toDouble();     
+    if((lowerAlarmVal > highAlarmVal) && SysConfigUI.checkBoxLAlarm->isChecked())
+    {
+        SysConfigUI.lineEditLWarning->setText("");
+        emit errorMsg(QString::fromLocal8Bit("报警上限值小于报警下限值，请重新设置报警值！"));
+    }
+    else
+    {
+        //setStatusTip("");
+        insertData(SelectionRow,12,SysConfigUI.lineEditLAlarm->text());
+        insertData(SelectionRow,13,SysConfigUI.lineEditHAlarm->text());
+    }
 }
 
 void SysConfig::on_WarningChecked(bool flag)
@@ -406,7 +443,6 @@ void SysConfig::on_HighWarningChecked(bool flag)
 
 void SysConfig::on_AlarmChecked(bool flag)
 {
- //QMessageBox::about(this,"item select",QString("warning:"+QString::number(mask,2)));
 	if(flag)
 	{
 		if(SysConfigUI.checkBoxLAlarm->isChecked())
@@ -420,7 +456,7 @@ void SysConfig::on_AlarmChecked(bool flag)
 	}
 	else
 		 mask &= 0x3;
-	//int row = SelectionRow;
+
 	insertData(SelectionRow,14,QString::number(mask,2));
 }
 
@@ -441,7 +477,6 @@ void SysConfig::on_HighAlarmChecked(bool flag)
 		mask &= ~0x8;
 	insertData(SelectionRow,14,QString::number(mask,2));
 }
-
 
 
 void SysConfig::setGroupBoxState(int rmask)
@@ -490,6 +525,7 @@ void SysConfig::on_tableWidgetCellDoubleClicked(int row, int column)
     else
          SysConfigUI.tableWidget->setEditTriggers(QAbstractItemView::DoubleClicked);
 }
+
 
 void SysConfig::on_cellClicked(int row, int column)
 {
@@ -596,14 +632,14 @@ void SysConfig::on_OkPushButtonClicked()
 */ 
 void SysConfig::on_CancelPushButtonClicked()
 {
-	//SysConfigUI.tableWidget->clear();
-	//initTableHeader();
-	//ReadData();
+	SysConfigUI.tableWidget->clear();
+	initTableWidget();
+    setData(SelectionRow);
 }
 
 /*
 **  @description:
-**	slot 
+**	This slot  is responded when the appliedPushButton is clicked. 
 **  @parameter:NULL
 **
 **  @return value:NULL
@@ -620,11 +656,11 @@ void SysConfig::on_AppliedPushButtonClicked()
 }
 /*
 **  @description:
-**	create database table configdb
+**	create database  configdb  for storing the channel settings.
 **  @parameter:NULL
 **
 **  @return value:boolean
-**	return true if create table successfully ,otherwise return false.
+**	return true if create table successfully, otherwise return false.
 **  author:teddy.tu
 **  date:2014/11/24
 **  Copyright(C) teddy.tu
@@ -634,7 +670,8 @@ bool SysConfig::createConfigureDB()
 {
 	if(!con->isOpen())
 		con->run();
-	//创建配置数据库
+
+	//create configure database
 	bool ctable = con->createTable("CREATE TABLE IF NOT EXISTS configdb(id int not null  primary key,"
         "channel varchar not null,dataName varchar,units varchar,type char(2),"
         "sensorName varchar,inputDataType char(1),max varchar,min varchar, inhibt int,"
@@ -644,7 +681,7 @@ bool SysConfig::createConfigureDB()
 		QMessageBox::about(this,"table","create table failed");
 		return false;
 	}
-
+    //create distance database
     ctable = con->createTable("CREATE TABLE IF NOT EXISTS distance(time char(20) not null,"
         "tagMAC char(10),distance varchar,message varchar)");
 
@@ -652,6 +689,20 @@ bool SysConfig::createConfigureDB()
 	return true;
 }
 
+
+/*
+**  @description:
+**  Create history database to store all data which detected by CAN-Bus and Distance-tag
+**  @parameter:NULL
+**
+**  @return value: bool
+**  Return true when create history database successful, otherwise return false.
+**  author:teddy.tu
+**  date:2015/4/14
+**
+**  Copyright(C) teddy.tu
+**  All rights reserved.
+*/ 
 bool SysConfig::createHistoryDB()
 {
 	if(!con->isOpen())
@@ -682,7 +733,7 @@ bool SysConfig::createHistoryDB()
 
 /*
 **  @description:
-**	从configdb中读取配置数据，并初始化m_channelIdMap和tableWidget
+**  Read configure data from configdb, and initialize m_channelIdMap && tableWidget
 **  @parameter:NULL
 **
 **  @return value:NULL
@@ -709,9 +760,7 @@ void SysConfig::ReadData()
 	{
 		QMessageBox::critical(this,"Read Data",QStringLiteral("数据不匹配，请重新读取配置数据(%1,%2)").arg(recordNum).arg(MaxColumn));
 		return;
-	}
-	//int IDNum = query.size();
-	
+    }
 	int row=0;
 	m_channelIdMap.clear();
 	while(query.next())
@@ -721,6 +770,8 @@ void SysConfig::ReadData()
 		{
 			QString val = query.record().value(i).toString();
 			QTableWidgetItem *item= new QTableWidgetItem(val);
+            if(i == 4)
+                item->setText(SysConfigUI.comboBoxMeterType->itemText(val.toInt()));
 			SysConfigUI.tableWidget->setItem(row,i,item);
 			if(i==1)
 			{
@@ -732,8 +783,7 @@ void SysConfig::ReadData()
 						m_setChannelList.remove(val);
 					SysConfigUI.tableWidget->item(row,0)->setCheckState(Qt::Checked);
 				}
-			}
-				
+			}	
 		}
 		//QMessageBox::about(0,"insert map",query.value(1).toString());
 		m_channelIdMap.insert(row,query.value(1).toString());
@@ -746,7 +796,11 @@ void SysConfig::ReadData()
 /*
 **  @description:
 **	将已设置好的通道参数保存到配置数据库configdb中，其中channel可以选择，
-**	如果不设置channel则必须设置dataName;如果设置channel则必须设置channel。
+**	如果不设置channel则必须设置dataName;如果设置channel则必须设置dataName。
+**  Saving the configure parameters to configure database(configdb), the parameter of Channel 
+**  can be set or not. If not to configure the Channel, the dataName of channel doesn't
+**  need to configure. If configure the Channel, then it must configure the dataName as well.
+
 **  @parameter:NULL
 **
 **  @return value:NULL
@@ -796,7 +850,7 @@ void SysConfig::WriteData()
 		//if(squery.next())
 		if(m_channelIdMap.size() && m_channelIdMap.find(id) != m_channelIdMap.end()) 
 			query.prepare(QString("update configdb set channel=?,dataName=?,units=?,type=?,"
-            "sersorName=?,inputDataType=?,max=?,min=？,inhibit=?"
+            "sersorName=?,inputDataType=?,max=?,min=?,inhibit=?"
             "lowerwarning=?,highwarning=?,loweralarm=?,highalarm=?,mask=? where id=%1").arg(id));
 		else
 		{
@@ -813,8 +867,14 @@ void SysConfig::WriteData()
 				query.addBindValue("");
 			}
 			else
-				query.addBindValue(item->text());
-		}
+            {
+                if( j == 4)
+                    query.addBindValue(SysConfigUI.comboBoxMeterType->findText(item->text()));
+                else
+				    query.addBindValue(item->text());
+		
+            }
+        }
 		if(query.exec()) 
 		{	
 			item = SysConfigUI.tableWidget->item(i,1);
@@ -831,7 +891,7 @@ void SysConfig::WriteData()
 
 /*
 **  @description:
-**	clear all data from table tableName of database.
+**	Clear all data from table tableName of database.
 **  @parameter:
 **	@param tableName:	table name
 **	@param database:	database name

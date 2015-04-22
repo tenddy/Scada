@@ -1,5 +1,5 @@
-﻿Build started 4/14/2015 1:02:06 PM.
-     1>Project "E:\Documents\ProgramFiles\qtPrograms\Scada\scada\MonitorSystem\MonitorSystem.vcxproj" on node 3 (Rebuild target(s)).
+﻿Build started 4/22/2015 2:08:08 PM.
+     1>Project "E:\Documents\ProgramFiles\qtPrograms\Scada\scada\MonitorSystem\MonitorSystem.vcxproj" on node 2 (Rebuild target(s)).
      1>CustomBuild:
          Moc'ing monitorsystem.h...
          Uic'ing monitorsystem.ui...
@@ -73,7 +73,6 @@
      1>E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\canopenprotocol.h(5): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
      1>e:\documents\programfiles\qtprograms\scada\scada\monitorsystem\monitorsystem.h(9): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\monitorsystem\monitorsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
      1>monitorsystem.cpp(1): warning C4103: 'e:\documents\programfiles\qtprograms\scada\scada\monitorsystem\monitorsystem.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>monitorsystem.cpp(315): warning C4553: '==' : operator has no effect; did you intend '='?
          qexcel.cpp
          Generating Code...
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\Distance /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\src /IE:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada /ID:\Scada_v5\Scada /ID:\Scada_v5\Scada\src /ID:\Scada_v5\Scada\Distance /ID:\Scada_v5\Scada\CanOpen /ID:\che\Scada_v5\Scada /ID:\che\Scada_v5\Scada\src /ID:\che\Scada_v5\Scada\Distance /ID:\che\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\Distance /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\src /IE:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada /I.\GeneratedFiles /I. /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_monitorsystem.cpp
@@ -119,4 +118,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:30.12
+Time Elapsed 00:00:34.83

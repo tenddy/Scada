@@ -1,6 +1,8 @@
 #include "qbasemeter.h"
 #include "InfoMsg.h"
 
+#include <QPixmap>
+
 QBaseMeter::QBaseMeter(QString name, QString title,QBaseMeter::Type type, QWidget *parent):
 	QMeter(name,title,type,parent)
 {
@@ -121,6 +123,8 @@ void QBaseMeter::paintEvent(QPaintEvent *e)
 	//hide the meter
 	if(!m_visible)
 		drawBackground(&painter);
+    QRect r(20,-10,40,40);
+    drawPixMap(&painter,r);
 }
 
 void QBaseMeter::setAxis(QPainter *painter)
@@ -701,24 +705,14 @@ void QBaseMeter::setEndAngle(int value)
 
 void QBaseMeter::setMinValue(int value)
 {
-    //if (value < m_maxValue)
-    {
-        m_minValue = value;  
-    }
-	//else
-		//m_minValue = m_maxValue - 1;
-	m_value = m_minValue;
+    m_minValue = value;  
+	m_value = value;
 	update();
 }
 
 void QBaseMeter::setMaxValue(int value)
 {
-    //if(value > m_minValue)
-    {
-        m_maxValue = value;  
-    }
-
-	
+    m_maxValue = value;  
 	update();
 }		  
 
@@ -822,5 +816,17 @@ void QBaseMeter::setIndicatorColor(QColor color)
 {
 	m_indicatorColor  = color;
 	update();
+}
+
+void QBaseMeter::drawPixMap(QPainter *painter, QRect rect)
+{
+    painter->save();
+    QPixmap pixmap(":/fuel");
+    //painter->setPen(Qt::white);
+    //painter->setBrush(Qt::black);
+    //painter->drawRect(rect);
+    //painter->setPen(Qt::red);
+    painter->drawPixmap(rect, pixmap);
+    painter->restore();
 }
 

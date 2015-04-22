@@ -1,7 +1,7 @@
 
 /*
 **  @description:
-**	QBaseMeter类的头文件
+**	Head file of class QBaseMeter
 
 **  author:teddy.tu
 **  date:
@@ -119,7 +119,8 @@ protected:
 
 	virtual void drawContexts(QPainter *painter,QRect r,const QString str,int pixsize = 10, int flags = Qt::AlignCenter,QPen pen = QPen(Qt::green));
 	virtual void drawContexts(QPainter *painter,QPointF point,const QString str,int pixsize = 10,int flags = Qt::AlignCenter,QPen pen = QPen(Qt::green));
-	virtual void drawLogo(QPainter *painter, QRect r);  
+	virtual void drawLogo(QPainter *painter, QRect r); 
+    virtual void drawPixMap(QPainter *painter, QRect rect);
 	
 public slots:
 	virtual void setType(Type);

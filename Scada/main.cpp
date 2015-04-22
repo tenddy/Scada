@@ -1,3 +1,4 @@
+
 #include "scada.h"
 #include <QtWidgets/QApplication>
 #include "connectdb.h"
@@ -6,7 +7,7 @@
 #include "src\qmeter.h"
 #include "canopenprotocol.h"
 #include "thermometer.h"
-//#include "qbasemeter.h"
+#include "qbasemeter.h"
 #include "indicatorlamp.h"
 //#include "stackedpage.h"
 //#include "SettingFiles.h"
@@ -26,8 +27,9 @@ int main(int argc, char *argv[])
     QMessageBox::about(0,"center","x:"+QString::number(therm->getCenter().x())+
         ",y:"+QString::number(therm->getCenter().y()));*/
 
-
-	Scada w;
+    //QBaseMeter w;
+	//IndicatorLamp w;
+    Scada w;
 	w.show();
 
 	return a.exec();

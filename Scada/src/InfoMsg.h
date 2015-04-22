@@ -16,6 +16,7 @@ class InfoMsg :public QObject
 private:
 	char *m_filename;
 	char *m_filepath;
+    char *m_mode;
 
 	char *m_logfilename;
 	char *m_logfilepath;
@@ -26,15 +27,17 @@ private:
 	char *m_errormode;
 public:
 	InfoMsg(void);
-	~InfoMsg(void);
+	InfoMsg(const char * fileName, const char *mode = "a");
+    ~InfoMsg(void);
 
 	bool infoClearFile(const char *filename);	//clear file
 	bool info_error(const char *fromat,...);
 	bool info(FILE *file ,const char *format,...);
 	bool info_log(const char *format,...);
-	static char *getCurrentTime(char *time);
+    static char *getCurrentTime(char *time);
 	char *testptr(char *buf); 
 
+    bool info_write(const char *format, ...);
 	void info_read(FILE *file,const char *format,...);
 };
 

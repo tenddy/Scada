@@ -15,6 +15,7 @@ SettingFiles::SettingFiles(void)
 	:m_settingFile("default.ini")
 {
 }
+
 SettingFiles::SettingFiles(QString filePath)
 	:m_settingFile(filePath)
 {
@@ -97,7 +98,23 @@ void SettingFiles::WriteToConfigFile(QString filepath,ConnectDB db, QString tabl
 			continue;
 		QString meterChannel = query.record().value(1).toString();
 		QString metertype = query.record().value(4).toString();
+        int dataType = query.record().value(6).toInt();            //输入数据类型
 
+        //阈值范围
+        QString lowerWarningVal = query.record().value(10).toString();
+        QString highWarningVal = query.record().value(11).toString();
+        QString lowerAlarmVal = query.record().value(12).toString();
+        QString highAlarmVal = query.record().value(13).toString();
+
+        //判断当前仪表是否为指示灯，若是指示灯，则需要配置指示灯的显示方式
+        //
+        int lampChildType = 0;
+        if(metertype.toInt() >= 5)
+        {
+            lampChildType = metertype.toInt()-5;  
+            metertype = "5";
+        }
+        //QMessageBox::about(0,"debug","meterType:"+metertype+"indicator:"+QString::number(lampChildType));
 		//根据目前所读取的仪表数，来判断是否能在当前页面中放下，
 		//如果在当前页面放不下，就会生成下一个页面。
 		if(metertype == "5" )
@@ -179,7 +196,8 @@ void SettingFiles::WriteToConfigFile(QString filepath,ConnectDB db, QString tabl
 		config.configureWrite(query.record().value(2).toString(),widgetflag+"title");
 		config.configureWrite(meterChannel,widgetflag+"channel");
 		config.configureWrite(pos,widgetflag+"pos");
-
+        
+        QString flag;
 		//不同仪表的属性设置
 		switch(metertype.toInt())
 		{
@@ -214,10 +232,16 @@ void SettingFiles::WriteToConfigFile(QString filepath,ConnectDB db, QString tabl
 			config.configureWrite(meter->minValue(),widgetflag+"minValue");
 			config.configureWrite(meter->maxValue(),widgetflag+"maxValue");
 			config.configureWrite(meter->Rate(),widgetflag+"rate");
-			config.configureWrite(meter->HAValue(),widgetflag+"haValue");
+
+			/*config.configureWrite(meter->HAValue(),widgetflag+"haValue");
 			config.configureWrite(meter->HWValue(),widgetflag+"hwValue");
 			config.configureWrite(meter->LWValue(),widgetflag+"lwValue");
-			config.configureWrite(meter->LAValue(),widgetflag+"laValue");
+			config.configureWrite(meter->LAValue(),widgetflag+"laValue");*/
+
+            config.configureWrite(highAlarmVal,widgetflag+"haValue");
+            config.configureWrite(highWarningVal,widgetflag+"hwValue");
+            config.configureWrite(lowerWarningVal,widgetflag+"lwValue");
+            config.configureWrite(lowerAlarmVal,widgetflag+"laValue");
 
 			config.configureWrite(meter->ScaleLineNum(QBaseMeter::Major),widgetflag+"scaleMajor");
 			config.configureWrite(meter->ScaleLineLength(QBaseMeter::Major),widgetflag+"scaleMajorLength");
@@ -235,7 +259,7 @@ void SettingFiles::WriteToConfigFile(QString filepath,ConnectDB db, QString tabl
 			config.configureWrite(meter->ScaleLineLength(QBaseMeter::Minor),widgetflag+"scaleMinorLength");
 			config.configureWrite(meter->ScaleLineWidth(QBaseMeter::Minor),widgetflag+"scaleMinorWidth");
 			break;
-		case 4:
+		case 4:     //温度计
 			therm = new ThermoMeter(metername);
 			therm->setChannel(meterChannel);
 			config.configureWrite(4,widgetflag+"type");
@@ -253,13 +277,37 @@ void SettingFiles::WriteToConfigFile(QString filepath,ConnectDB db, QString tabl
 			config.configureWrite(therm->ScaleLength(ThermoMeter::Minor),widgetflag+"minorLength");
 			config.configureWrite(therm->ScaleWidth(ThermoMeter::Minor),widgetflag+"minorWidth");
 			break;
-		case 5:
+		case 5:    //指示灯
 			lamp = new IndicatorLamp(metername);
 			lamp->setChannel(meterChannel);
 			config.configureWrite(5,widgetflag+"type");
 			config.configureWrite(lamp->getRadius(),widgetflag+"radius");
 			config.configureWrite(lamp->getCenter().x(),widgetflag+"centerX");
 			config.configureWrite(lamp->getCenter().y(),widgetflag+"centerY");
+            
+            if(dataType == 2)
+                flag = "true";
+            else
+                flag = "false";
+            config.configureWrite(flag, widgetflag+"isDigit");
+
+            if(lampChildType == 0)
+                flag = "true";
+            else
+                flag = "false";
+            config.configureWrite(flag, widgetflag+"isDrawLamp");
+
+            /*config.configureWrite(lamp->getLimitValue(IndicatorLamp::LOWERWARNING), widgetflag+"LowerWarning");
+            config.configureWrite(lamp->getLimitValue(IndicatorLamp::HIGHWARNING), widgetflag+"HighWarning");
+            config.configureWrite(lamp->getLimitValue(IndicatorLamp::LOWERALARM), widgetflag+"LowerAlarm");
+            config.configureWrite(lamp->getLimitValue(IndicatorLamp::HIGHALARM), widgetflag+"HighAlarm");*/
+            
+            config.configureWrite(lowerWarningVal, widgetflag+"LowerWarning");
+            config.configureWrite(highWarningVal, widgetflag+"HighWarning");
+            config.configureWrite(lowerAlarmVal, widgetflag+"LowerAlarm");
+            config.configureWrite(highAlarmVal, widgetflag+"HighAlarm");
+            
+            config.configureWrite(QString(":/indicator%1").arg(lampChildType), widgetflag+"PixmapPath");
 			break;
 		default:
 			break;
@@ -337,6 +385,7 @@ void SettingFiles::SaveToConfigFile(StackedPage *stackpage, QString filepath)
 			QBaseMeter *baseMeter = NULL;
 			ThermoMeter *therm = NULL;
 			IndicatorLamp *lamp = NULL;
+            QString flag;
 
 			switch(type)
 			{
@@ -404,6 +453,21 @@ void SettingFiles::SaveToConfigFile(StackedPage *stackpage, QString filepath)
 				config.configureWrite(lamp->getRadius(),"radius", meterName, pageflag);
 				config.configureWrite(lamp->getCenter().x(),"centerX", meterName, pageflag);
 				config.configureWrite(lamp->getCenter().y(),"centerY", meterName, pageflag);
+                if(lamp->getIsDigit())
+                    flag = "true";
+                else
+                    flag = "false";
+                config.configureWrite(flag, "isDigit", meterName, pageflag);
+                if(lamp->getIsDrawLamp())
+                    flag = "true";
+                else
+                    flag = "false";
+                config.configureWrite(flag,"isDrawLamp", meterName, pageflag);
+                config.configureWrite(lamp->getLimitValue(IndicatorLamp::LOWERWARNING), "LowerWarning",meterName, pageflag);
+                config.configureWrite(lamp->getLimitValue(IndicatorLamp::HIGHWARNING), "HighWarning",meterName, pageflag);
+                config.configureWrite(lamp->getLimitValue(IndicatorLamp::LOWERALARM), "LowerAlarm",meterName, pageflag);
+                config.configureWrite(lamp->getLimitValue(IndicatorLamp::HIGHALARM), "HighAlarm",meterName, pageflag);
+                config.configureWrite(lamp->getPixmapPath(), "PixmapPath",meterName, pageflag);
 				break;
 			}
 		}
@@ -542,6 +606,16 @@ QVector<BasePage*> SettingFiles::ReadFromConfigFile(QString filepath)
 			double y = config.configureRead("centerY",lampNames[i],pageflag).toDouble();
 			lamp->setCenter(x,y);
 			lamp->setRadius(config.configureRead("radius",lampNames[i],pageflag).toInt());
+            QString flag;
+            flag = config.configureRead("isDigit", lampNames[i], pageflag).toString();
+            lamp->setIsDigit( flag == "true" );
+            flag = config.configureRead("isDrawLamp", lampNames[i], pageflag).toString(); 
+            lamp->setDrawPixMap(flag == "true");
+            lamp->setLowerWarning(config.configureRead("LowerWarning", lampNames[i], pageflag).toDouble());
+            lamp->setHighWarning(config.configureRead("HighWarning",  lampNames[i], pageflag).toDouble());
+            lamp->setLowerAlarm(config.configureRead("LowerAlarm",  lampNames[i], pageflag).toDouble());
+            lamp->setHighAlarm(config.configureRead("HighAlarm",  lampNames[i], pageflag).toDouble());
+            lamp->setPixmapPath(config.configureRead("PixmapPath", lampNames[i], pageflag).toString());
             int pos = config.configureRead("pos",lampNames[i],pageflag).toInt(); 
 			page->addMeter(lamp,pos);
 			//info.info_log("insert lamps,m:%d,l:%d,sum:%d,pos:%d\n",page->MeterCounts(),page->LampCounts(),page->Counts(),pos);
