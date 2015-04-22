@@ -1,2 +1,2 @@
 tables:
-distance	Channel_11	configdb	
+distance	Channel_11	configdb	Channel_12	Channel_13	

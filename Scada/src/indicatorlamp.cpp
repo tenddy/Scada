@@ -30,11 +30,11 @@ IndicatorLamp::IndicatorLamp(QString name,QString title, QMeter::Type type, QWid
 	setPalette(p);
 	setAutoFillBackground(true);
 
-	m_radius = 40;						    //半径
+	m_radius = 30;						    //半径
 	//m_title = QStringLiteral("指示灯");	//名称
 	m_lampColor = Qt::darkGray;			   //指示灯颜色
 	//setMinimumSize(220,220);			   //窗体大小设置
-	//setMaximumHeight(100);
+	setMaximumHeight(120);
 	//sizeHint();
     m_value = 1;
     m_visible = true;

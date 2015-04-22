@@ -962,7 +962,7 @@ void SysConfig::setData(int row)
 			SysConfigUI.comboBoxDataUint->setCurrentText(item->text());
 			break;
 		case 4:
-			SysConfigUI.comboBoxMeterType->setCurrentIndex(item->text().toInt());
+			SysConfigUI.comboBoxMeterType->setCurrentText(item->text());
 			break;
         case 5:
             SysConfigUI.comboBoxSensorType->setCurrentText(item->text());
