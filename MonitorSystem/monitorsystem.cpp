@@ -6,6 +6,9 @@
 #include "SettingFiles.h"
 #include "channel.h"
 #include "configure.h"
+#include <qlayout.h>
+#include <qtextstream.h>
+#include <qsqlquery.h>
 
 MonitorSystem::MonitorSystem(QWidget *parent)
     : QWidget(parent)
@@ -46,7 +49,7 @@ void MonitorSystem::createUI()
 {
     m_pushButtonStatusChange = new QPushButton(QStringLiteral("ÏÔÊ¾×´Ì¬½çÃæ"));
     statusWidget = new QWidget;
-    QHBoxLayout *layout = new QHBoxLayout;
+    QHBoxLayout *layout = new QHBoxLayout();
     layout->addWidget(m_pushButtonStatusChange);
     layout->setContentsMargins(0,0,0,10);
     statusWidget->setLayout(layout);

@@ -4103,3 +4103,593 @@ Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00
 detect value: 2037.17	Channel_9:0.00     Channel_10:0.00     Channel_11:0.51     Channel_12:0.00     
 detect value: 2037.05	Channel_9:0.00     Channel_10:0.00     Channel_11:0.51     Channel_12:0.00     
 Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	detect value:    0.00	detect value:    0.00	Channel_13:0.00     Channel_14:0.00     Channel_15:0.00     Channel_16:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+state:pre-operational
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+state:pre-operational
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+state:pre-operational
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+state:pre-operational
+channel_1:  channel_2:  channel_3: channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+state:pre-operational
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+detect value:    0.00	detect value:  100.00	Channel_9:0.00     Channel_10:0.00     Channel_11:0.00     Channel_12:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3: channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3: channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3: channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+channel_1:  channel_2:  channel_3:  channel_4: 
+channel_1:  channel_2:  channel_3:  channel_4:  
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     

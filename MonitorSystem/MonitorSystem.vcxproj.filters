@@ -256,11 +256,13 @@
     <CustomBuild Include="..\Scada\SettingFiles.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\ui_settingsdialog.h">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_monitorsystem.h">
       <Filter>Generated Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\ui_monitorsystem.h">
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_settingsdialog.h">
       <Filter>Generated Files</Filter>
-    </CustomBuild>
+    </ClInclude>
   </ItemGroup>
 </Project>

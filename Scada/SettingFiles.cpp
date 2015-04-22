@@ -307,7 +307,7 @@ void SettingFiles::WriteToConfigFile(QString filepath,ConnectDB db, QString tabl
             config.configureWrite(lowerAlarmVal, widgetflag+"LowerAlarm");
             config.configureWrite(highAlarmVal, widgetflag+"HighAlarm");
             
-            config.configureWrite(QString(":/indicator%1").arg(lampChildType), widgetflag+"PixmapPath");
+            config.configureWrite(QString("./Resources/indicator%1").arg(lampChildType), widgetflag+"PixmapPath");
 			break;
 		default:
 			break;
