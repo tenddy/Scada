@@ -17,7 +17,7 @@ public:
     bool IsAnalog() const ;
     QString getStrValue() const ;
     int getIntValue() const ;
-    float getFloatValue(int precise = 2) const;
+    double getFloatValue(int precise = 2) const;
     float getMinValue() const ;
     float getMaxValue() const ;
     int   getInhibitTime() const;

@@ -368,35 +368,23 @@ void SysConfig::on_LowerAlarmChanged(QString val)
 {
     double lowerAlarmVal = SysConfigUI.lineEditLAlarm->text().toDouble();
     double highAlarmVal = SysConfigUI.lineEditHAlarm->text().toDouble();
-    if((lowerAlarmVal > highAlarmVal) && SysConfigUI.checkBoxHAlarm->isChecked())
-    {
-        //QMessageBox::warning(this, "Error", QString::fromLocal8Bit("报警下限值大于报警上限值，请重新设置报警值！"));
-        setStatusTip("status tip:lower");
-        SysConfigUI.lineEditLWarning->setText("");
-        emit errorMsg(QString::fromLocal8Bit("报警下限值大于报警上限值，请重新设置报警值！"));
-    }
-    else
+    //if((lowerAlarmVal > highAlarmVal) && SysConfigUI.checkBoxHAlarm->isChecked())
+    //{
+    //    //QMessageBox::warning(this, "Error", QString::fromLocal8Bit("报警下限值大于报警上限值，请重新设置报警值！"));
+    //    setStatusTip("status tip:lower");
+    //    SysConfigUI.lineEditLWarning->setText("");
+    //    emit errorMsg(QString::fromLocal8Bit("报警下限值大于报警上限值，请重新设置报警值！"));
+    //}
+    //else
     {
         setStatusTip("");
         insertData(SelectionRow,12,SysConfigUI.lineEditLAlarm->text());
-        insertData(SelectionRow,13,SysConfigUI.lineEditHAlarm->text());
+        //insertData(SelectionRow,13,SysConfigUI.lineEditHAlarm->text());
     }
 }	
 void SysConfig::on_HighAlarmChanged(QString val)
 {
-    double lowerAlarmVal = SysConfigUI.lineEditLAlarm->text().toDouble();
-    double highAlarmVal =  SysConfigUI.lineEditHAlarm->text().toDouble();     
-    if((lowerAlarmVal > highAlarmVal) && SysConfigUI.checkBoxLAlarm->isChecked())
-    {
-        SysConfigUI.lineEditLWarning->setText("");
-        emit errorMsg(QString::fromLocal8Bit("报警上限值小于报警下限值，请重新设置报警值！"));
-    }
-    else
-    {
-        //setStatusTip("");
-        insertData(SelectionRow,12,SysConfigUI.lineEditLAlarm->text());
-        insertData(SelectionRow,13,SysConfigUI.lineEditHAlarm->text());
-    }
+    insertData(SelectionRow,13,SysConfigUI.lineEditHAlarm->text());
 }
 
 void SysConfig::on_WarningChecked(bool flag)
@@ -584,9 +572,8 @@ void SysConfig::on_cellClicked(int row, int column)
 			if(!item->text().isEmpty())
 			m_setChannelList.remove(item->text());
 			SysConfigUI.tableWidget->setItem(comboRow,1,item);
-			comboRow = -1; //Not exist comboBox
-		}  
-        
+			comboRow = -1;                                          //Not exist comboBox
+		}    
 	}
     setData(row);
 }
@@ -857,24 +844,65 @@ void SysConfig::WriteData()
 		   query.prepare("insert into configdb values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 		   query.addBindValue(id);
 		}
-		//QMessageBox::about(this,"mn",QString("%1,%2").arg(MaxRow).arg(MaxColumn));
+
+        QStringList dataList;
 		for(int j=1;j<MaxColumn;j++)
 		{
 			item = SysConfigUI.tableWidget->item(i,j);
 			if(!item)
-			{
-				//QMessageBox::about(this,"item",QString("item(%1,%2) is null").arg(i).arg(j));
-				query.addBindValue("");
-			}
+                dataList << "";
 			else
             {
                 if( j == 4)
-                    query.addBindValue(SysConfigUI.comboBoxMeterType->findText(item->text()));
+                    dataList <<  QString::number(SysConfigUI.comboBoxMeterType->findText(item->text()));
                 else
-				    query.addBindValue(item->text());
-		
+                    dataList << item->text();
             }
         }
+        
+        if(dataList[6].isEmpty() || dataList[7].isEmpty())
+        {
+            SysConfigUI.tableWidget->selectRow(i);
+            QMessageBox::warning(0,QString::fromLocal8Bit("警告"),QString::fromLocal8Bit("请设置传感器的测量范围！！！"));
+            return;
+        }
+
+        if(dataList[9].isEmpty())
+        {
+            dataList[9] = dataList[7];
+            SysConfigUI.tableWidget->setItem(i, 10, new QTableWidgetItem(dataList[9]));
+            //query.bindValue(9, dataList[9]);
+        }
+        if(dataList[10].isEmpty())
+        {
+            dataList[10] = dataList[6];
+            SysConfigUI.tableWidget->setItem(i, 11, new QTableWidgetItem(dataList[10]));
+            //query.bindValue(10, dataList[10]);
+        }
+        if(dataList[11].isEmpty())
+        {
+            dataList[11] = dataList[9];
+            SysConfigUI.tableWidget->setItem(i, 12, new QTableWidgetItem(dataList[11]));
+            //query.bindValue(11, dataList[11]);
+        }
+        if(dataList[12].isEmpty())
+        {
+            dataList[12] = dataList[10];
+            SysConfigUI.tableWidget->setItem(i, 13, new QTableWidgetItem(dataList[12]));
+            //query.bindValue(12, dataList[12]);
+        }
+
+        if((dataList[9].toDouble() > dataList[10].toDouble()) || (dataList[11].toDouble() > dataList[12].toDouble()))
+        {
+            
+            QMessageBox::warning(0,"Warning", QString::fromLocal8Bit("预警值设置有误，请重新设置!\n"));
+            SysConfigUI.tableWidget->selectRow(i);
+            return;
+        }
+
+        for(int j = 0; j < dataList.size(); j++)
+            query.addBindValue(dataList[j]);
+
 		if(query.exec()) 
 		{	
 			item = SysConfigUI.tableWidget->item(i,1);
@@ -883,6 +911,8 @@ void SysConfig::WriteData()
 			   text = item->text();
 			m_channelIdMap.insert(id,text);
 		}
+        else
+            QMessageBox::warning(0,QString::fromLocal8Bit("保存数据错误"),QString::fromLocal8Bit("保存数据出错！请重试！"));
 		id++;
     }
 	con->closeDB();
@@ -946,7 +976,9 @@ void SysConfig::setData(int row)
 	{
 		QTableWidgetItem *item = SysConfigUI.tableWidget->item(row,i);
 		if(!item)
+        {
 			item = new QTableWidgetItem(""); 
+        }
         switch(i)
 		{
 		case 1:

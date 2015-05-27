@@ -208,27 +208,27 @@ void MeterConfigDlg::on_posChanged()
 void MeterConfigDlg::on_startAngleChanged(int val)
 {
 	if(m_meter)
-	m_meter->setStartAngle(val);
+		m_meter->setStartAngle(val);
 }
 void MeterConfigDlg::on_endAngleChanged(int val)
 {
 	if(m_meter)
-	m_meter->setEndAngle(val);
+		m_meter->setEndAngle(val);
 }
 void MeterConfigDlg::on_radiusChanged(int r)
 {
 	if(m_meter)
-	m_meter->setRadius(r);
+		m_meter->setRadius(r);
 }
 void MeterConfigDlg::on_centerXChanged(int x)
 {
 	if(m_meter)
-	m_meter->setCenter(x,ui.YSpinBox->value());
+	m_meter->setCenter(x,m_meter->getCenter().y());
 }
 void MeterConfigDlg::on_centerYChanged(int y)
 {
 	if(m_meter)
-	m_meter->setCenter(ui.XSpinBox->value(),-y);
+		m_meter->setCenter(m_meter->getCenter().x(), y);  //
 }
 
 void MeterConfigDlg::on_majorNumChanged(int num)

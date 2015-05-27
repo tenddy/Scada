@@ -10,10 +10,10 @@ EngineMeter::EngineMeter(QString name, QString title, QMeter::Type type,QWidget 
     m_minValue = 0;
     m_maxValue = 40; 
 	m_value = m_minValue;
-	m_laValue = 0;
-	m_haValue = 15;
-	m_lwValue = 0;
-	m_hwValue = 15;
+	m_laValue = 25;
+	m_haValue = 40;
+	m_lwValue = 15;
+	m_hwValue = 25;
 
 	m_startAngle =60;
 	m_endAngle =60;

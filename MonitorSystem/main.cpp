@@ -8,7 +8,6 @@ int main(int argc, char *argv[])
     MonitorSystem *w = new MonitorSystem; 
 	w->show();
 	w->startProcess("D:\\Scada_v5\\Win32\\Release\\video\\Test2.exe");
-	//w->startProcess();
     
     return a.exec();
 }

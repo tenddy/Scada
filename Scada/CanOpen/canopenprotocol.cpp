@@ -60,7 +60,7 @@ void CanOpenProtocol::InitCardInterface(UINT8 bt0, UINT8 bt1, UINT8 mode)
     //receive data
     connect(timer,SIGNAL(timeout()),this,SLOT(receiveData()));
     connect(timer,SIGNAL(timeout()),this,SLOT(saveData()));
-    //timer->start(100);
+    timer->start(1);
 }
 
 QVector<unsigned int> CanOpenProtocol::ChannelCounts() 
@@ -96,16 +96,20 @@ void CanOpenProtocol::ParseData(const CAN_MSG msg)
     case 0x180:  //digit input
         for(int i=0; i<msg.len; i++)
         {
+			int digit = (int)msg.a_data[i];
 			for(int j=0; j<8 && channel < digitNum; j++)
             {
-                m_digitData[channel].push_back(DigitTransform(msg.a_data[i]&(0x01<<j)));
-                data += QString("channel_%1:").arg(channel+1) + DigitTransform(msg.a_data[i]&(0x01<<j)) + " "; 
+                //m_digitData[channel].push_back(DigitTransform((int)msg.a_data[i]&(0x01<<j)));
+                m_digitData[channel].push_back(DigitTransform((digit>>j)&0x01));
+				data += QString("channel_%1:").arg(channel+1) + DigitTransform((digit>>j)&0x01) + " "; 
 				
                 if(m_channelMap.contains(channel+1))
-                    m_channelMap[channel+1]->setDigitValue(msg.a_data[i]&(0x01<<j));
-
-                if(m_channelData.contains(channel+1))
-					m_channelData[channel+1] = DigitTransform(msg.a_data[i]&(0x01<<j));
+				{
+                    m_channelMap[channel+1]->setDigitValue((digit>>j)&0x01);
+					//data += QString("store value:\t%1").arg(m_channelMap[channel+1]->getIntValue());
+				}
+				if(m_channelData.contains(channel+1))
+					m_channelData[channel+1] = DigitTransform((digit>>j)&0x01);
                 channel++ ;
             }
         }
@@ -141,7 +145,6 @@ void CanOpenProtocol::ParseData(const CAN_MSG msg)
             
 			if(i+1 >= msg.len)
             {
-               
                 m_analogData[i/2+channel].push_back(AnalogTransform(msg.a_data[i]/32767.0));
                 
 				data += QString("Channel_%1:").arg(channelId)+AnalogTransform(msg.a_data[i]/32767.0) + " ";
@@ -163,7 +166,7 @@ void CanOpenProtocol::ParseData(const CAN_MSG msg)
 				{
 					//out << "Channel_" << channelId << ":\t" << (msg.a_data[i]+256*msg.a_data[i+1])/32767.0 << "\n";
                     m_channelMap[channelId]->setAnalogValue((msg.a_data[i]+256*msg.a_data[i+1])/32767.0);
-					out << "detect value:" << m_channelMap[channelId]->getStrValue() << "\t";
+					//out << "detect value:" << m_channelMap[channelId]->getStrValue() << "\t";
 				}
                 if(m_channelData.contains(channelId))
                     m_channelData[channelId] =  AnalogTransform((msg.a_data[i]+256*msg.a_data[i+1])/32767.0);
@@ -361,7 +364,7 @@ void CanOpenProtocol::receiveData()
 }
 
 //transform the digit input data to string
-QString CanOpenProtocol::DigitTransform(char val)
+QString CanOpenProtocol::DigitTransform(int val)
 {
     return (QString("%1").arg(val));
 }

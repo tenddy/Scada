@@ -82,12 +82,12 @@ void IndicatorConfigDlg::on_posChanged()
 
 void IndicatorConfigDlg::on_centerXChanged(int x)
 {
-	m_meter->setCenter(x,ui.YSpinBox->value());
+	m_meter->setCenter(x,m_meter->getCenter().y());
 }
 
 void IndicatorConfigDlg::on_centerYChanged(int y)
 {
-	m_meter->setCenter(ui.XSpinBox->value(),-y);  //指示灯Y轴移动方向相反
+	m_meter->setCenter(m_meter->getCenter().x(), y);  //指示灯Y轴移动方向相反
 }
 
 void IndicatorConfigDlg::on_radiusChanged(int r)

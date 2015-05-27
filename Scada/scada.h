@@ -40,6 +40,7 @@ private:
 	QMenu *m_widgetConfigMenu;		 /* menu of page configure */
 	QMenu *m_sysManagerMenu;		 /* menu of data manager*/
 
+	QAction *m_openFileAction;
 	QAction *m_sysConfigAction;		  /*action of system configure*/
 	QAction *m_widgetConfigAction;	  /*action of page configure*/
 	QAction *m_sysManagerAction;	  /*action of data manager*/
@@ -68,6 +69,7 @@ private:
 	void connectUI();
 
 private slots:
+	void on_openFileAction();
 	void on_sysConfigAction();
 	void on_widgetConfigAction();
 	void on_sysManagerAction();

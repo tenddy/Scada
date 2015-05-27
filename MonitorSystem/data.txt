@@ -354,3 +354,5 @@ Channel_9:0.00     Channel_10:0.00     Channel_11:0.33     Channel_12:0.00
 Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
 Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
 Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     
+state:pre-operational
+Channel_5:0.00     Channel_6:0.00     Channel_7:0.00     Channel_8:0.00     

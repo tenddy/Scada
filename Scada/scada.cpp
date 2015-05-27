@@ -5,6 +5,7 @@
 #include "ui_datamanager.h"
 #include "SettingFiles.h"
 #include "settingsdialog.h"
+#include <QFileDialog>
 
 Scada::Scada(QWidget *parent)
 	: QMainWindow(parent)
@@ -43,6 +44,9 @@ void Scada::createUI()
 
 void Scada::createAction()
 {
+	m_openFileAction = new QAction(QStringLiteral("打开文件"),this);
+	m_openFileAction->setStatusTip(QStringLiteral("打开文件"));
+
 	m_sysConfigAction = new QAction(QIcon(":/systemconfigure"),QStringLiteral("系统配置"),this);
 	m_sysConfigAction->setShortcut(QKeySequence("ctrl+G"));
 	m_sysConfigAction->setStatusTip(QStringLiteral("系统配置"));
@@ -83,6 +87,7 @@ void Scada::createAction()
 void Scada::createMenu()
 {
 	m_sysConfigMenu = menuBar()->addMenu(QStringLiteral("基本配置"));
+	m_sysConfigMenu->addAction(m_openFileAction);
 	m_sysConfigMenu->addAction(m_sysConfigAction);
     m_sysConfigMenu->addAction(m_serialPortConfigAction);
     m_sysConfigMenu->addAction(m_serialPortAction);
@@ -115,8 +120,19 @@ void Scada::createToolBar()
 	statusBar();
 }
 
+void Scada::on_openFileAction()
+{
+	QString fileName = QFileDialog::getOpenFileName(this,QStringLiteral("文件对话框"),
+		"D:\\Scada_v5\\Win32\\Release\\",QStringLiteral("配置文件 (*.ini)"));
+	//m_stackedPages = new StackedPage(SettingFiles::ReadFromConfigFile("default.ini"));
+
+	//qDebug()<<"fileName:"<<fileName;
+	//QMessageBox::about(0,"msg",QString("234"));
+}
+
 void Scada::connectUI()
 {
+	connect(m_openFileAction,SIGNAL(triggered()),this,SLOT(on_openFileAction()));
 	connect(m_sysConfigAction,SIGNAL(triggered()),this,SLOT(on_sysConfigAction()));
 	connect(m_widgetConfigAction,SIGNAL(triggered()),this,SLOT(on_widgetConfigAction()));
 	connect(m_sysManagerAction,SIGNAL(triggered()),this,SLOT(on_sysManagerAction()));

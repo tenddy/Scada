@@ -30,27 +30,28 @@ IndicatorLamp::IndicatorLamp(QString name,QString title, QMeter::Type type, QWid
 	setPalette(p);
 	setAutoFillBackground(true);
 
-	m_radius = 30;						    //半径
+	m_radius = 60;						    //半径
 	//m_title = QStringLiteral("指示灯");	//名称
 	m_lampColor = Qt::darkGray;			   //指示灯颜色
 	//setMinimumSize(220,220);			   //窗体大小设置
-	setMaximumHeight(120);
+	setMaximumHeight(150);
 	//sizeHint();
-    m_value = 1;
+    m_value = 0;
     m_visible = true;
-    lower_warning = 1;                  //阈值设置，默认为数字信号输入，0--正常， 1--非正常
-    lower_alarm = 1;
+    lower_warning = 0;                  //阈值设置，默认为数字信号输入，0--正常， 1--非正常
+    lower_alarm = 0;
     high_warning = 1;
     high_alarm = 1;
 
     isDigit = true;                     //true -- 数字量输入  false -- 模拟量输入
     isDrawLamp = false;                // true -- 绘制指示灯   false -- 加载信号灯图片
-    setPixmapPath(":/brake");
-	m_timer = new QTimer(this);
+   setPixmapPath(GREEN_LAMP);
+	 //setPixmapPath("./Resources/indicator3");
+    m_timer = new QTimer(this);
     //setCursor(Qt::BlankCursor);   //隐藏鼠标
     //resize(100,100);
 	setState(QMeter::NoData);
-    connect(m_timer,SIGNAL(timeout()),this,SLOT(twinkle()));    //设置报警闪烁
+    //connect(m_timer,SIGNAL(timeout()),this,SLOT(twinkle()));    //设置报警闪烁
 }
 
 IndicatorLamp::IndicatorLamp(const IndicatorLamp &lamp)
@@ -110,8 +111,8 @@ void IndicatorLamp::paintEvent(QPaintEvent *)
     if(!m_visible)
     {
         painter.setBrush(Qt::black);
-        //painter.setPen(Qt::red);
-        painter.drawRect(-m_radius,-m_radius,m_radius<<1,m_radius<<1);
+        painter.setPen(Qt::black);
+        painter.drawRect(-m_radius, -m_radius, m_radius<<1, m_radius<<1);
     }
 }
 //设置坐标系统
@@ -127,11 +128,11 @@ void IndicatorLamp::setAxis(QPainter *painter)
 	painter->drawRect(-110,-110,220,220);*/
 	painter->translate(m_center.x(),m_center.y()-10);
 	
-	/*painter->setPen(Qt::red);
-	painter->drawRect(-m_radius,-m_radius,m_radius<<1,m_radius<<1);
-	painter->setPen(Qt::green);
-	painter->drawLine(-m_radius-5,0,m_radius+5,0);
-	painter->drawLine(0,-m_radius-5,0,m_radius+5);*/
+   /* painter->setPen(Qt::red);
+    painter->drawRect(-m_radius,-m_radius,m_radius<<1,m_radius<<1);
+    painter->setPen(Qt::green);
+    painter->drawLine(-m_radius-5,0,m_radius+5,0);
+    painter->drawLine(0,-m_radius-5,0,m_radius+5);*/
 	
 }
 //绘制外边框
@@ -204,6 +205,12 @@ void IndicatorLamp::drawPixmap(QPainter *painter, QRect r, QPixmap p)
     painter->drawPixmap(r, p);
     painter->restore();
                                              
+}
+
+
+double IndicatorLamp::getValue() const
+{
+	return m_value;
 }
 
 //plubic slots
@@ -281,16 +288,18 @@ void IndicatorLamp::setIsDigit(bool digit)
 void IndicatorLamp::setValue(double val)
 {
      m_value  = val;
-     if(val <= lower_warning || val >= high_warning)
+	 if(val == -1)
+		 m_state = QMeter::NoData;
+     else if( ((val <= lower_warning) && (val > lower_alarm)) || (( val >= high_warning) && (val < high_alarm)) )
          m_state = QMeter::Warning;
-     else if(val <= lower_alarm || val >= high_warning)
+     else if((val < lower_alarm) || (val >= high_alarm))
          m_state = QMeter::Alarm;
      else
          m_state = QMeter::Normal;
 
      if(isDigit && m_state == QMeter::Warning) 
          m_state = QMeter::Alarm;
-         
+     //QMessageBox::about(0,"debug",QString::number( (int) m_state));    
      stateChanged();
      update();
 }
@@ -303,10 +312,12 @@ void IndicatorLamp::stateChanged()
 	{
 	case QMeter::NoData:
 		color = QColor(Qt::gray);
+		if(RUNNING)
+			m_visible = false;
 		break;
 	case QMeter::Normal:
 		color = QColor(Qt::green);
-        if(!RUNNING)
+        if(RUNNING)
             m_visible = false;
 
         if(m_timer->isActive())
@@ -315,10 +326,12 @@ void IndicatorLamp::stateChanged()
 	case QMeter::Warning:
 		color = QColor(Qt::yellow);
         m_timer->start(500);
+		m_visible = true;
         break;
 	case QMeter::Alarm:
 		color = QColor(Qt::red);
         m_timer->start(300);
+		m_visible = true;
 		break;
 	}
     
@@ -345,7 +358,7 @@ void IndicatorLamp::setLowerAlarm(double value)
 
 void IndicatorLamp::setHighAlarm(double value)
 {
-    high_warning = value;
+    high_alarm = value;
     update();
 }
 
@@ -360,16 +373,16 @@ void IndicatorLamp::setLimitValue(LIMIT limit, double value)
 {
     switch(limit)
     {
-    case 1:
+	case LOWERWARNING:
         setLowerWarning(value);
         break;
-    case 2:
+	case HIGHWARNING:
         setHighWarning(value);
         break;
-    case 3:
+	case LOWERALARM:
         setLowerAlarm(value);
         break;
-    case 4:
+	case HIGHALARM:
         setHighAlarm(value);
         break;
     }

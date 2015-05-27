@@ -66,7 +66,7 @@ private:
     QVector<QVector<QString> > m_analogData;
     QVector<QVector<QString> > m_digitData;
 
-    QString DigitTransform(char val);     // sava data
+    QString DigitTransform(int val);     // sava data
     QString AnalogTransform(double val, double min = 0, double max = 1);
     void initChannel();
 signals:

@@ -580,3 +580,99 @@ state:2
 2
 3
 4
+state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:22015-04-29 10:34:12	Channel_11	value:    1.24
+Channel_11:	insert data failed.
+2015-04-29 10:34:12	Channel_12	value: -100.00
+Channel_12:	insert data failed.
+2015-04-29 10:34:22	Channel_11	value:    1.24
+Channel_11:	insert data failed.
+2015-04-29 10:34:22	Channel_12	value: -100.00
+Channel_12:	insert data failed.
+2015-04-29 10:34:32	Channel_11	value:    1.24
+Channel_11:	insert data failed.
+2015-04-29 10:34:32	Channel_12	value: -100.00
+Channel_12:	insert data failed.
+2015-04-29 10:34:28	Channel_11	value:    1.24
+Channel_11:	insert data failed.
+2015-04-29 10:34:28	Channel_12	value: -100.00
+Channel_12:	insert data failed.
+state:2state:2state:2state:2state:2state:2state:2state:2state:2state:22015-04-29 10:36:18	Channel_11	value:    1.24
+Channel_11:	insert data failed.
+2015-04-29 10:36:18	Channel_12	value: -100.00
+Channel_12:	insert data failed.
+state:2state:22015-04-29 10:36:44	Channel_3	value:0
+2015-04-29 10:36:44	Channel_4	value:8
+2015-04-29 10:36:54	Channel_3	value:0
+2015-04-29 10:36:54	Channel_4	value:8
+2015-04-29 10:37:04	Channel_3	value:4
+2015-04-29 10:37:04	Channel_4	value:0
+2015-04-29 10:37:14	Channel_3	value:0
+2015-04-29 10:37:14	Channel_4	value:8
+2015-04-29 10:39:18	Channel_3	value:0
+2015-04-29 10:39:18	Channel_4	value:0
+2015-04-29 10:39:28	Channel_3	value:0
+2015-04-29 10:39:28	Channel_4	value:0
+2015-04-29 10:39:38	Channel_3	value:4
+2015-04-29 10:39:38	Channel_4	value:8
+2015-04-29 10:39:48	Channel_3	value:0
+2015-04-29 10:39:48	Channel_4	value:0
+2015-04-29 10:39:59	Channel_3	value:0
+2015-04-29 10:39:59	Channel_4	value:0
+2015-04-29 10:40:09	Channel_3	value:0
+2015-04-29 10:40:09	Channel_4	value:0
+2015-04-29 10:40:09	Channel_13	value:    0.00
+2015-04-29 10:40:19	Channel_3	value:4
+2015-04-29 10:40:19	Channel_4	value:0
+2015-04-29 10:40:29	Channel_3	value:0
+2015-04-29 10:40:29	Channel_4	value:0
+2015-04-29 10:46:55	Channel_3	value:0
+2015-04-29 10:46:55	Channel_4	value:0
+2015-04-29 10:47:05	Channel_3	value:0
+2015-04-29 10:47:05	Channel_4	value:8
+2015-04-29 10:47:15	Channel_3	value:0
+2015-04-29 10:47:15	Channel_4	value:0
+state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:2state:22015-04-29 14:02:08	Channel_3	value:0
+2015-04-29 14:02:08	Channel_4	value:0
+2015-04-29 14:02:18	Channel_3	value:0
+2015-04-29 14:02:18	Channel_4	value:0
+2015-04-29 16:35:53	Channel_3	value:-1
+2015-04-29 16:35:53	Channel_4	value:-1
+2015-04-29 16:36:03	Channel_3	value:-1
+2015-04-29 16:36:03	Channel_4	value:-1
+2015-04-29 16:36:14	Channel_3	value:-1
+2015-04-29 16:36:14	Channel_4	value:-1
+2015-04-29 16:36:24	Channel_3	value:-1
+2015-04-29 16:36:24	Channel_4	value:-1
+2015-04-29 16:36:34	Channel_3	value:-1
+2015-04-29 16:36:34	Channel_4	value:-1
+2015-04-29 16:36:44	Channel_3	value:-1
+2015-04-29 16:36:44	Channel_4	value:-1
+2015-04-29 16:36:44	Channel_13	value:    0.00
+2015-04-29 16:36:54	Channel_3	value:-1
+2015-04-29 16:36:54	Channel_4	value:-1
+2015-04-29 16:37:04	Channel_3	value:-1
+2015-04-29 16:37:04	Channel_4	value:-1
+2015-04-29 16:37:14	Channel_3	value:-1
+2015-04-29 16:37:14	Channel_4	value:-1
+2015-04-29 16:37:24	Channel_3	value:-1
+2015-04-29 16:37:24	Channel_4	value:-1
+2015-04-29 16:37:35	Channel_3	value:-1
+2015-04-29 16:37:35	Channel_4	value:-1
+2015-04-29 16:37:45	Channel_3	value:-1
+2015-04-29 16:37:45	Channel_4	value:-1
+2015-04-29 16:37:45	Channel_13	value:    0.00
+2015-04-29 16:37:55	Channel_3	value:-1
+2015-04-29 16:37:55	Channel_4	value:-1
+2015-04-29 16:38:05	Channel_3	value:-1
+2015-04-29 16:38:05	Channel_4	value:-1
+2015-04-29 16:38:15	Channel_3	value:-1
+2015-04-29 16:38:15	Channel_4	value:-1
+2015-04-29 16:38:25	Channel_3	value:-1
+2015-04-29 16:38:25	Channel_4	value:-1
+2015-04-29 16:38:35	Channel_3	value:-1
+2015-04-29 16:38:35	Channel_4	value:-1
+2015-04-29 16:38:46	Channel_3	value:-1
+2015-04-29 16:38:46	Channel_4	value:-1
+2015-04-29 16:38:46	Channel_13	value:    0.00
+2015-04-29 16:38:56	Channel_3	value:-1
+2015-04-29 16:38:56	Channel_4	value:-1

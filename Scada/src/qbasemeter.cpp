@@ -84,8 +84,6 @@ void QBaseMeter::paintEvent(QPaintEvent *e)
 
 	drawScale(&painter,m_radius);
 	drawScaleNum(&painter,m_radius);
-	drawIndicator(&painter);
-	
 
 	if(m_compoment & DoubleMeter)
 	{
@@ -120,7 +118,10 @@ void QBaseMeter::paintEvent(QPaintEvent *e)
 		drawContexts(&painter,rect,m_title,18*m_scale,Qt::AlignCenter,QPen(Qt::yellow));
 	}
 
+	drawIndicator(&painter);
+
 	//hide the meter
+	
 	if(!m_visible)
 		drawBackground(&painter);
     QRect r(20,-10,40,40);
@@ -205,10 +206,10 @@ void QBaseMeter::drawScale(QPainter *painter, int radius,QPoint center)
     double angleStep = (360.0 - m_startAngle - m_endAngle) / steps;
    
 	int scalerange = m_maxValue - m_minValue;
-	int lowerwarning = steps * m_lwValue / scalerange ;
-	int upperwarning = steps * m_hwValue / scalerange;
-	int loweralarm = steps * m_laValue / scalerange;
-	int upperalarm	= steps * m_haValue / scalerange;
+	int lowerwarning = (steps * m_lwValue / scalerange) / m_rate;
+	int upperwarning = (steps * m_hwValue / scalerange) / m_rate;
+	int loweralarm = (steps * m_laValue / scalerange) / m_rate;
+	int upperalarm	= (steps * m_haValue / scalerange) / m_rate;
 
     QPen pen = painter->pen();
 	QColor color = pen.color();
@@ -629,7 +630,7 @@ void QBaseMeter::setValue(double val)
 void QBaseMeter::setRate(double rate)
 {
 	m_rate = rate;
-	setCompoment(NumericRate,rate != 1);
+	setCompoment(NumericRate,rate = 1);
 
 	update();
 }

@@ -126,12 +126,11 @@ void ThermoMeterConfig::on_posChanged()
 
 void ThermoMeterConfig::on_centerXChanged(int x)
 {
-	
-	m_meter->setCenter(x,ui.YSpinBox->value());
+	m_meter->setCenter(x,m_meter->getCenter().y());
 }
 void ThermoMeterConfig::on_centerYChanged(int y)
 {
-	m_meter->setCenter(ui.XSpinBox->value(),-y);
+	m_meter->setCenter(m_meter->getCenter().x(), y);
 }
 
 void ThermoMeterConfig::on_majorStepsChanged(int num)

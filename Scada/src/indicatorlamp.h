@@ -31,7 +31,7 @@ public:
 	~IndicatorLamp();
 	int  getRadius() const {return m_radius;}
    
-    double getValue() const {return m_value;}
+    double getValue() const ;
     QString getPixmapPath() const {return pixmapPath;}
     bool isShowPixMap() const {return showPixMap;}
     bool getIsDrawLamp() const {return isDrawLamp;}

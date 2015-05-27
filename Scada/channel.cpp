@@ -7,6 +7,7 @@ Channel::Channel(int id, bool adFlag, float min, float max, int inhibit)
     :m_id(id),m_ADFlag(adFlag),m_minVal(min),m_maxVal(max),m_inhibit(inhibit)
 {
     m_name = "Channel_" + QString::number(id);
+	
     m_strVal = "-1";
 }
 
@@ -54,9 +55,9 @@ int Channel::getIntValue() const
     return  m_strVal.toInt();
 }
 
-float Channel::getFloatValue(int precise ) const 
+double Channel::getFloatValue(int precise ) const 
 {
-    return m_strVal.toFloat();
+    return m_strVal.toDouble();
 }
 
 void Channel::setAnalogValue(float val, int precise, bool adflag)

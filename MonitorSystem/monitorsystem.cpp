@@ -61,7 +61,7 @@ void MonitorSystem::createUI()
     QTimer *timer = new QTimer;
     connect(timer,SIGNAL(timeout()),this,SLOT(updataValue()));
     connect(timer,SIGNAL(timeout()),this,SLOT(saveData()));
-    timer->start(1000);
+    timer->start(1);
 }
 
 void MonitorSystem::initStackPage()
@@ -176,13 +176,38 @@ void MonitorSystem::updataValue()
                     continue;
                  int id = lamp->getChannel().mid(8).toInt();
                 if(chmap.contains(id))
-              {
-                    int val = chmap[id]->getIntValue();
+				{
+					lamp->setIsDigit(chmap[id]->IsDigit());
+					QString strValue = chmap[id]->getStrValue();
+					int iValue = chmap[id]->getIntValue();
+					int dValue = chmap[id]->getFloatValue();
+					//if(lamp->getIsDigit())
+					//{
+					//	//lamp->setValue(chmap[id]->getIntValue());
+					//	if(iValue == -1)
+					//		lamp->setState(QMeter::NoData);
+					//	else if(iValue == 0)
+					//		lamp->setState(QMeter::Normal);
+					//	else
+					//		lamp->setState(QMeter::Warning);
+					//}
+					//else
+					lamp->setValue(dValue);
+
+					int state = (int)lamp->getState();
+                    /*int val = chmap[id]->getIntValue();
                     if(val == 1)
                         lamp->setState(QMeter::Normal);
                     else if(val == 0)
-                        lamp->setState(QMeter::Warning); 
-                    out << "meter:\t" << lamp->getChannel() << "\tvalue:"<< chmap[id]->getFloatValue() << "\n";
+                        lamp->setState(QMeter::Warning);*/ 
+					out << "lamp:\t" << lamp->getChannel() << "\tId:" << id << "\tstr Value:"  
+						<< strValue << "\tint value:" << iValue << "\tdouble value:" << dValue 
+						<< "\tvalue:"<< lamp->getValue()  
+						<< "\tlower warning:" << lamp->getLimitValue(IndicatorLamp::LOWERWARNING)
+						<< "\thigh warning:" << lamp->getLimitValue(IndicatorLamp::HIGHWARNING) 
+						<< "\tlower alarm:" << lamp->getLimitValue(IndicatorLamp::LOWERALARM)
+						<< "\thigh alarm:" << lamp->getLimitValue(IndicatorLamp::HIGHALARM) 
+						<< "\tstate:\t" << state << "\n";
                 }                                        
                 else
                     lamp->setState(QMeter::NoData);           
@@ -201,7 +226,8 @@ void  MonitorSystem::saveDistance()
         fileerr = false;
     QTextStream out(&file);
 	QString time = QDateTime::currentDateTime().toLocalTime().toString("yyyy-MM-dd hh:mm:ss");
-    OutputData* data = Distance::tagData;
+   
+	OutputData* data = Distance::tagData;
     out << "time:" << time <<"\tMAC:" <<data->macofTag 
         <<"\tDistance:" << data->distance << "\tMsg:" << data->message << "\n";
     ConnectDB db;
