@@ -55,9 +55,9 @@ void CanOpenProtocol::InitCardInterface(UINT8 bt0, UINT8 bt1, UINT8 mode)
     channelNum[3] = node->getChannelCounts(3);
     //QMessageBox::about(0,"channel",QString::number(channelNum[0]+channelNum[2]));
     //receive data
-    connect(timer,SIGNAL(timeout()),this,SLOT(receiveData()));
+   /* connect(timer,SIGNAL(timeout()),this,SLOT(receiveData()));
     connect(timer,SIGNAL(timeout()),this,SLOT(saveData()));
-    timer->start(1);
+    timer->start(1);*/
 }
 
 QVector<unsigned int> CanOpenProtocol::ChannelCounts() 

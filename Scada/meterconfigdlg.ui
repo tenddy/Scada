@@ -67,7 +67,7 @@
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>-428</y>
+           <y>-371</y>
            <width>266</width>
            <height>924</height>
           </rect>
@@ -560,16 +560,16 @@
              <item row="0" column="1">
               <widget class="QSpinBox" name="majorNumSpinBox">
                <property name="minimum">
-                <number>0</number>
+                <number>1</number>
                </property>
                <property name="maximum">
                 <number>1000</number>
                </property>
                <property name="singleStep">
-                <number>2</number>
+                <number>1</number>
                </property>
                <property name="value">
-                <number>1</number>
+                <number>10</number>
                </property>
                <property name="displayIntegerBase">
                 <number>10</number>

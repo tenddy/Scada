@@ -1,4 +1,4 @@
-﻿Build started 5/28/2015 4:09:28 PM.
+﻿Build started 5/28/2015 10:00:42 PM.
      1>Project "E:\Documents\Scada\Scada\Scada.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Documents\Scada\Scada\CanOpen /IE:\Documents\Scada\Scada\Distance /IE:\Documents\Scada\Scada\src /IE:\Documents\Scada\Scada /I.\GeneratedFiles /I. /I.\GeneratedFiles\Release /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtQml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSvg /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXml /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtXmlPatterns /I.\CanOpen /I..\Distance /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_SQL_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_XMLPATTERNS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\qbasemeter.cpp
@@ -68,4 +68,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.76
+Time Elapsed 00:00:02.06

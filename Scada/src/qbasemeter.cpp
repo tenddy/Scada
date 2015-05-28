@@ -18,6 +18,7 @@ QBaseMeter::QBaseMeter(QString name, QString title,QBaseMeter::Type type, QWidge
     m_radius = 100 * m_scale;
 	m_compoment = Title | Units | NumericValue | BackGround;
     m_units = QStringLiteral("N/A");
+   /* m_title = QStringLiteral("рг╠М");*/
     m_precision = 1;
 	m_rate = 1;
     m_startAngle = 60;
@@ -58,7 +59,7 @@ QBaseMeter::QBaseMeter(QString name, QString title,QBaseMeter::Type type, QWidge
 	palette.setColor(QPalette::Window,m_backgroundColor);
 	setPalette(palette);
 	//setMinimumSize(220,220);
-    drawMeterFrame();
+    //drawMeterFrame();
 	resize(400,400);
    /* QTimer *timer = new QTimer();
     connect(timer,SIGNAL(timeout()),this,SLOT(ChangeValue()));
@@ -87,9 +88,6 @@ QBaseMeter::~QBaseMeter()
 void QBaseMeter::paintEvent(QPaintEvent *e)
 {
 	QPainter painter(this);
-
-    
-	painter.setRenderHint(QPainter::Antialiasing);
 	setAxis(&painter);
 
     /*
@@ -135,15 +133,19 @@ void QBaseMeter::paintEvent(QPaintEvent *e)
 	}
     */
 
-    //drawMeterFrame(&painter);
-   // painter.drawPixmap();
-
 	painter.drawPixmap(-100,-110,200,200,pixmap);
+    //draw title
+    if(m_compoment & Title)
+    {
+        QRect rect(-width()/2,m_radius-20,width(),18);
+        drawContexts(&painter,rect,m_title,18*m_scale,Qt::AlignCenter,QPen(Qt::white));
+    }
     drawIndicator(&painter);
+    
 
 	//hide the meter
-	//if(!m_visible)
-	//	drawBackground(&painter);
+    if(!m_visible)
+        drawBackground(&painter);
 
  //   QRect r(20,-10,40,40);
  //   drawPixMap(&painter,r);
@@ -197,7 +199,6 @@ void QBaseMeter::drawBackground(QPainter *painter)
 {
 	painter->save();
 	painter->setBrush(m_backgroundColor);
-    /*painter->setBrush(Qt::gray);*/
 	painter->drawRect(-width(),-height(),2*width(),2*height());
 	painter->restore();
 	//QPalette palette;
@@ -387,7 +388,7 @@ void QBaseMeter::drawScaleNum(QPainter *painter,int  radius,QPoint center)
         tmpVal = int(i * steps + m_minValue);
 		//info.info_log("%4.2f ",tmpVal);
 		str = QString(" %1 ").arg(tmpVal);
-        w = fm.size(Qt::TextSingleLine,str).width()+10;
+        w = fm.size(Qt::TextSingleLine,str).width()+16;
         h = fm.size(Qt::TextSingleLine,str).height()+10;
 		x = center.x() + (radius-12-m_scaleMajorLength) * cosa - w / 2;
 		y = center.y() - (radius-12-m_scaleMajorLength) * sina - h / 2;
@@ -683,12 +684,14 @@ void QBaseMeter::drawMeterFrame()
             drawContexts(&painter,QRect(r),rate,12*m_scale,Qt::AlignCenter,QPen(Qt::darkMagenta));
         }
     }
-    //draw title
-    if(m_compoment & Title)
-    {
-        QRect rect(-width()/2,m_radius+2,width(),18);
-        drawContexts(&painter,rect,m_title,18*m_scale,Qt::AlignCenter,QPen(Qt::yellow));
-    }
+    ////draw title
+    //if(m_compoment & Title)
+    //{
+    //    QRect rect(-width()/2,m_radius+2,width(),18);
+    //    painter.setPen(Qt::red);
+    //    painter.drawRect(rect);
+    //    drawContexts(&painter,rect,m_title,18*m_scale,Qt::AlignCenter,QPen(Qt::yellow));
+    //}
     painter.end();
 }
 
@@ -736,31 +739,36 @@ QColor QBaseMeter::ScaleLineColor(ScaleLine line)
 void QBaseMeter::setType(QMeter::Type type)
 {
 	m_type = type;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setState(QMeter::State state)
 {
 	m_state = state;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setName(QString name)
 {
 	m_name = name;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setTitle(QString title)
 {
 	m_title = title;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setChannel(QString channel)
 {
 	m_channel = channel;
-	update();
+	drawMeterFrame();
+    update();
 }
 
 void QBaseMeter::setValue(double val)
@@ -788,13 +796,14 @@ void QBaseMeter::setRate(double rate)
 {
 	m_rate = rate;
 	setCompoment(NumericRate,rate = 1);
-
+    drawMeterFrame();
 	update();
 }
 void QBaseMeter::setScale(double scale)
 {
 	m_scale = scale;
 	m_radius *= m_scale;
+    drawMeterFrame();
 	update();
 }
 
@@ -809,22 +818,26 @@ void QBaseMeter::setCenter(double x, double y)
 	info.infoClearFile("log.txt");
 	info.info_log("%d,%d\n",geometry().x(),geometry().y());*/
 	m_center = QPoint(x,y);
+    drawMeterFrame();
 	update();
 }
 void QBaseMeter::setMeterVisible(bool visible)
 {
 	m_visible = visible;
+    drawMeterFrame();
 	update();
 }
 void QBaseMeter::setRadius(double radius)
 {
 	m_radius = radius * m_scale;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::ScaleRadius(double scale)
 {
 	m_radius *= m_scale;
+    drawMeterFrame();
 	update();
 }
 
@@ -834,30 +847,35 @@ void QBaseMeter::setCompoment(Compoment compoment, bool enabled )
 		m_compoment |= compoment;
 	else
 		m_compoment &= ~compoment;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setUnits(QString units)
 {
     m_units = units;
+    drawMeterFrame();
     update();
 }
 
 void QBaseMeter::setPrecision(int precision)
 {
 	m_precision = precision;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setStartAngle(int value)
 {
     m_startAngle = value>=0?value:0;
+    drawMeterFrame();
     update();
 }
 
 void QBaseMeter::setEndAngle(int value)
 {
     m_endAngle = value>=0?value:0;
+    drawMeterFrame();
     update();
 }
 
@@ -865,12 +883,14 @@ void QBaseMeter::setMinValue(int value)
 {
     m_minValue = value;  
 	m_value = value;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setMaxValue(int value)
 {
-    m_maxValue = value;  
+    m_maxValue = value;
+    drawMeterFrame();
 	update();
 }		  
 
@@ -882,27 +902,32 @@ void QBaseMeter::setWAEnabled(int flags)
 void QBaseMeter::setlaValue(int val)
 {
 	m_laValue = val;
+    drawMeterFrame();
 	update();
 }
 void QBaseMeter::sethaValue(int val)
 {
 	m_haValue = val;
+    drawMeterFrame();
 	update();
 }
 void QBaseMeter::setlwValue(int val)
 {
 	m_lwValue = val;
+    drawMeterFrame();
 	update();
 }
 void QBaseMeter::sethwValue(int val)
 {
 	m_hwValue = val;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setMiddleVisiable(bool falgs)
 {
 	m_middleVisiable = falgs;
+    drawMeterFrame();
 	update();
 }
 
@@ -914,6 +939,7 @@ void QBaseMeter::setScaleLine(ScaleLine scale, int steps)
 		m_scaleMiddle = steps;
 	else if(scale == Minor)
 		m_scaleMinor = steps;
+    drawMeterFrame();
 	update();
 }
 
@@ -937,6 +963,7 @@ void QBaseMeter::setScaleLineWidth(ScaleLine scale,int width)
 		m_scaleMiddleWidth = width;
 	else if(scale == Minor)
 		m_scaleMinorWidth = width;
+    drawMeterFrame();
 	update();
 }
 
@@ -948,12 +975,14 @@ void QBaseMeter::setScaleLineColor(ScaleLine scale, QColor color)
 		m_scaleMiddleColor = color;
 	else if(scale == Minor)
 		m_scaleMinorColor = color;
+    drawMeterFrame();
 	update();
 }
 
 void QBaseMeter::setBackgroundColor(QColor color)
 {
 	m_backgroundColor = color;
+    drawMeterFrame();
 	update();
 }
 

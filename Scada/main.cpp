@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     QMessageBox::about(0,"center","x:"+QString::number(therm->getCenter().x())+
         ",y:"+QString::number(therm->getCenter().y()));*/
 
-    //QBaseMeter w;
+   // QBaseMeter w;
 	//IndicatorLamp w;
     Scada w;
 	w.show();
