@@ -4,3 +4,7 @@ Scada.sdf
 Win32/Release/log.txt
 Win32/Release/scada.db
 Scada.sdf
+MonitorSystem/GeneratedFiles/qrc_monitorsystem.cpp
+MonitorSystem/GeneratedFiles/qrc_monitorsystem.cpp
+MonitorSystem/MonitorSystem.vcxproj
+MonitorSystem/MonitorSystem.vcxproj

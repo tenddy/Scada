@@ -2,12 +2,21 @@
 #include "InfoMsg.h"
 
 #include <QPixmap>
+#include <QMessageBox>
+#include <QTimer>
+#include <QTime>
+
 
 QBaseMeter::QBaseMeter(QString name, QString title,QBaseMeter::Type type, QWidget *parent):
 	QMeter(name,title,type,parent)
 {
+    pixmap = QPixmap(400,400);
+    pixmap.fill(Qt::black);
+
+    isDrawing = false;
+
     m_radius = 100 * m_scale;
-	m_compoment = Title | Units | NumericValue |BackGround;
+	m_compoment = Title | Units | NumericValue | BackGround;
     m_units = QStringLiteral("N/A");
     m_precision = 1;
 	m_rate = 1;
@@ -49,7 +58,11 @@ QBaseMeter::QBaseMeter(QString name, QString title,QBaseMeter::Type type, QWidge
 	palette.setColor(QPalette::Window,m_backgroundColor);
 	setPalette(palette);
 	//setMinimumSize(220,220);
-	resize(450,450);
+    drawMeterFrame();
+	resize(400,400);
+   /* QTimer *timer = new QTimer();
+    connect(timer,SIGNAL(timeout()),this,SLOT(ChangeValue()));
+    timer->start(100);*/
 }
 
 QBaseMeter::~QBaseMeter()
@@ -74,9 +87,12 @@ QBaseMeter::~QBaseMeter()
 void QBaseMeter::paintEvent(QPaintEvent *e)
 {
 	QPainter painter(this);
+
+    
 	painter.setRenderHint(QPainter::Antialiasing);
 	setAxis(&painter);
 
+    /*
 	if(m_compoment & BackGround)
 		drawBackground(&painter);
 	if(m_compoment & Crown)
@@ -117,15 +133,20 @@ void QBaseMeter::paintEvent(QPaintEvent *e)
 		QRect rect(-width()/2,m_radius+2,width(),18);
 		drawContexts(&painter,rect,m_title,18*m_scale,Qt::AlignCenter,QPen(Qt::yellow));
 	}
+    */
 
-	drawIndicator(&painter);
+    //drawMeterFrame(&painter);
+   // painter.drawPixmap();
+
+	painter.drawPixmap(-100,-110,200,200,pixmap);
+    drawIndicator(&painter);
 
 	//hide the meter
-	
-	if(!m_visible)
-		drawBackground(&painter);
-    QRect r(20,-10,40,40);
-    drawPixMap(&painter,r);
+	//if(!m_visible)
+	//	drawBackground(&painter);
+
+ //   QRect r(20,-10,40,40);
+ //   drawPixMap(&painter,r);
 }
 
 void QBaseMeter::setAxis(QPainter *painter)
@@ -134,8 +155,8 @@ void QBaseMeter::setAxis(QPainter *painter)
 	int h = height();
 	int side = qMin(w,h);
 	painter->translate(w/2,h/2);
-	painter->scale(side/250.0,side/250.0);
-	painter->translate(m_center.x(),m_center.y()-10);
+	painter->scale(side/220.0,side/220.0);
+	painter->translate(m_center.x(),m_center.y());
 }
 /*
 **  @description:
@@ -176,6 +197,7 @@ void QBaseMeter::drawBackground(QPainter *painter)
 {
 	painter->save();
 	painter->setBrush(m_backgroundColor);
+    /*painter->setBrush(Qt::gray);*/
 	painter->drawRect(-width(),-height(),2*width(),2*height());
 	painter->restore();
 	//QPalette palette;
@@ -258,6 +280,77 @@ void QBaseMeter::drawScale(QPainter *painter, int radius,QPoint center)
     painter->restore();
 }
 
+void QBaseMeter::drawScale(int radius, QPoint center /* = QPoint(0,0) */)
+{
+    QPainter painter;
+    //painter.begin(&pixmap);
+    QPicture picture;
+    painter.begin(&picture);
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.translate(100,100);
+    //painter.setPen(Qt::red);
+    //painter.scale(100/200.0,100/200.0);
+    if(m_middleVisiable)
+        m_scaleMiddle = m_scaleMinor/2;
+    painter.rotate(m_startAngle);
+    int steps = m_scaleMajor * m_scaleMinor;
+    double angleStep = (360.0 - m_startAngle - m_endAngle) / steps;
+
+    int scalerange = m_maxValue - m_minValue;
+    int lowerwarning = (steps * m_lwValue / scalerange) / m_rate;
+    int upperwarning = (steps * m_hwValue / scalerange) / m_rate;
+    int loweralarm = (steps * m_laValue / scalerange) / m_rate;
+    int upperalarm	= (steps * m_haValue / scalerange) / m_rate;
+
+    QPen pen = painter.pen();
+    QColor color = pen.color();
+    for (int i = 0; i <= steps; i++)
+    {
+        if(m_WAEnabled && (m_compoment & 0x0f00))
+        {
+            if(((m_compoment&0x0100) && (i <= loweralarm)) || ((m_compoment&0x0800) && (i>= upperalarm)) )	 //	 报警值颜色
+                color = QColor(Qt::red);
+            else if(((m_compoment&0x0200) &&( i <= lowerwarning)) || ((m_compoment&0x0400) && (i>= upperwarning)))	//预警值颜色
+                color = QColor(Qt::yellow);
+            else
+                color = QColor(m_scaleMinorColor);		//正常颜色
+        }
+        else
+        {
+            if(i%m_scaleMinor == 0)			  //大刻度颜色
+                color = m_scaleMajorColor;
+            else if(m_middleVisiable && i%m_scaleMiddle == 0)	  //中刻度颜色
+                color = m_scaleMiddleColor;
+            else							  //小刻度颜色
+                color = m_scaleMinorColor;
+        }
+
+        pen.setColor(color);
+        if (i % m_scaleMinor == 0)
+        {
+            pen.setWidth(m_scaleMajorWidth);
+            painter.setPen(pen);  
+            painter.drawLine(0, radius, 0, radius-m_scaleMajorLength);	
+        }
+        else if(m_middleVisiable && i%m_scaleMiddle == 0)
+        {
+            pen.setWidth(m_scaleMiddleWidth);
+            painter.setPen(pen);
+            painter.drawLine(0, radius, 0, radius-m_scaleMiddleLength);
+        }
+        else
+        {
+            pen.setWidth(m_scaleMinorWidth);
+            painter.setPen(pen);
+            painter.drawLine(0, radius, 0, radius-m_scaleMinorLength);
+        }
+        painter.rotate(angleStep);
+    }
+
+    painter.end();
+    picture.save("meter.pic");
+}
+
 /*
 **  @description:
 **	绘制刻度值
@@ -293,14 +386,14 @@ void QBaseMeter::drawScaleNum(QPainter *painter,int  radius,QPoint center)
 
         tmpVal = int(i * steps + m_minValue);
 		//info.info_log("%4.2f ",tmpVal);
-		str = QString("%1").arg(tmpVal);
-        w = fm.size(Qt::TextSingleLine,str).width();
-        h = fm.size(Qt::TextSingleLine,str).height();
+		str = QString(" %1 ").arg(tmpVal);
+        w = fm.size(Qt::TextSingleLine,str).width()+10;
+        h = fm.size(Qt::TextSingleLine,str).height()+10;
 		x = center.x() + (radius-12-m_scaleMajorLength) * cosa - w / 2;
 		y = center.y() - (radius-12-m_scaleMajorLength) * sina - h / 2;
 		const QRectF r(x,y,w,h);
 		QFont font;
-		font.setPixelSize(14*m_scale);
+		font.setPixelSize(12*m_scale);
 		painter->setFont(font);
 		painter->setPen(QPen(m_textColor));
 		painter->drawText(r,Qt::AlignCenter,str);
@@ -536,6 +629,70 @@ void QBaseMeter::drawLogo(QPainter *painter, QRect rect)
 
 }
 
+void QBaseMeter::drawPixMap(QPainter *painter, QRect rect)
+{
+    painter->save();
+    QPixmap pixmap(":/fuel");
+    //painter->setPen(Qt::white);
+    //painter->setBrush(Qt::black);
+    //painter->drawRect(rect);
+    //painter->setPen(Qt::red);
+    painter->drawPixmap(rect, pixmap);
+    painter->restore();
+}
+
+void QBaseMeter::drawMeterFrame()
+{
+    QPainter painter;
+    painter.begin(&pixmap);
+    painter.setRenderHint(QPainter::Antialiasing);
+    painter.scale(400/200,400/200);
+    painter.translate(100,110);
+  
+    if(m_compoment & BackGround)
+        drawBackground(&painter);
+    if(m_compoment & Crown)
+        drawCrown(&painter,m_radius);
+
+    drawScale(&painter,m_radius);
+    drawScaleNum(&painter,m_radius);
+
+    if(m_compoment & DoubleMeter)
+    {
+        drawInnerScale(&painter,m_center,m_radius-m_strech);
+        drawInnerScaleNum(&painter,m_center,m_radius-m_strech);
+    }
+    if(m_compoment & NumericValue)
+        drawNumericValue(&painter);
+
+    //draw units
+    if((m_compoment & Units) || (m_compoment & NumericRate))
+    {
+        if(!(m_compoment & NumericRate))		//rate is invisible
+        {
+            int haltw = int(1.7*m_radius); 
+            QRect r(-haltw,-m_radius/2-8,haltw<<1,16);
+            drawContexts(&painter,QRect(r),m_units,16*m_scale,Qt::AlignCenter,QPen(Qt::darkMagenta));
+        }
+        else	 
+        {
+            QRect r(-40,10,80,20);	 
+            QString rate = QStringLiteral("×") + QString("%1").arg(m_rate);
+            if(m_compoment & Units)		   //units is visible
+                rate += " "+m_units;
+            drawContexts(&painter,QRect(r),rate,12*m_scale,Qt::AlignCenter,QPen(Qt::darkMagenta));
+        }
+    }
+    //draw title
+    if(m_compoment & Title)
+    {
+        QRect rect(-width()/2,m_radius+2,width(),18);
+        drawContexts(&painter,rect,m_title,18*m_scale,Qt::AlignCenter,QPen(Qt::yellow));
+    }
+    painter.end();
+}
+
+
 int QBaseMeter::ScaleLineNum(ScaleLine line)
 {
 	if(line == Major)
@@ -768,6 +925,7 @@ void QBaseMeter::setScaleLineLength(ScaleLine scale, int length)
 		m_scaleMiddleLength = length;
 	else if(scale == Minor)
 		m_scaleMinorLength = length;
+    drawMeterFrame();
 	update();
 }
 
@@ -815,19 +973,30 @@ void QBaseMeter::setTextColor(QColor color)
 
 void QBaseMeter::setIndicatorColor(QColor color)
 {
-	m_indicatorColor  = color;
+	m_indicatorColor  = color;  
 	update();
 }
 
-void QBaseMeter::drawPixMap(QPainter *painter, QRect rect)
+void QBaseMeter::ChangeValue()
 {
-    painter->save();
-    QPixmap pixmap(":/fuel");
-    //painter->setPen(Qt::white);
-    //painter->setBrush(Qt::black);
-    //painter->drawRect(rect);
-    //painter->setPen(Qt::red);
-    painter->drawPixmap(rect, pixmap);
-    painter->restore();
+ /*   static int mg = 1;
+    if(m_value >= m_maxValue)
+        mg = -1;
+    else if(m_value <= m_minValue)
+        mg = 1;
+    m_value += mg;
+    setValue(m_value);*/
+    qsrand(QTime(0,0,0).msecsTo(QTime::currentTime()));
+
+    int value = qrand() % 300;
+    setValue(value);
 }
+
+
+//signals
+//void QBaseMeter::rePaintMeter()
+//{
+//    drawMeterFrame();
+//    update();
+//}
 

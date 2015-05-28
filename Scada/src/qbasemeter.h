@@ -13,6 +13,9 @@
 #include "qmeter.h"
 #include <qpen.h>
 #include <qpainter.h>
+#include <QPixmap>
+#include <QPicture>
+
 class QBaseMeter : public QMeter
 {
 	Q_OBJECT
@@ -72,6 +75,11 @@ public:
     
 	
 protected:
+    /*   QPicture tempPicture;
+    QPicture picture;*/
+
+    bool isDrawing;
+    QPixmap pixmap;
 	int m_radius;							//半径
 	int m_compoment;						//显示元素标志位
 	QString m_units;						//单位
@@ -111,6 +119,7 @@ protected:
 	virtual void drawCrown(QPainter *painter,int radius);
     virtual void drawBackground(QPainter *painter);
 	virtual void drawScale(QPainter *painter,int radius,QPoint center =QPoint(0,0));
+    virtual void drawScale(int radius, QPoint center = QPoint(0,0));
 	virtual void drawScaleNum(QPainter *painter,int radius,QPoint center = QPoint(0,0));
 	virtual void drawInnerScale(QPainter *painter,QPointF center,double radius);
 	virtual void drawInnerScaleNum(QPainter *painter,QPointF center,double radius);
@@ -120,8 +129,11 @@ protected:
 	virtual void drawContexts(QPainter *painter,QRect r,const QString str,int pixsize = 10, int flags = Qt::AlignCenter,QPen pen = QPen(Qt::green));
 	virtual void drawContexts(QPainter *painter,QPointF point,const QString str,int pixsize = 10,int flags = Qt::AlignCenter,QPen pen = QPen(Qt::green));
 	virtual void drawLogo(QPainter *painter, QRect r); 
+    virtual void drawMeterFrame();
+
     virtual void drawPixMap(QPainter *painter, QRect rect);
-	
+//signals:
+//    void rePaintMeter();
 public slots:
 	virtual void setType(Type);
 	virtual void setState(State) ;
@@ -165,5 +177,7 @@ public slots:
 	virtual void setIndicatorColor(QColor);	
 	
 	virtual void setRuntime(int) {}
+
+    virtual void ChangeValue();
 };
 #endif //QBASEMETER_H

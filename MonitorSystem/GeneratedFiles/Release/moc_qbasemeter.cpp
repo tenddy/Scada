@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_QBaseMeter_t {
-    QByteArrayData data[41];
-    char stringdata[473];
+    QByteArrayData data[42];
+    char stringdata[485];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -69,7 +69,8 @@ QT_MOC_LITERAL(36, 398, 13),
 QT_MOC_LITERAL(37, 412, 18),
 QT_MOC_LITERAL(38, 431, 12),
 QT_MOC_LITERAL(39, 444, 17),
-QT_MOC_LITERAL(40, 462, 10)
+QT_MOC_LITERAL(40, 462, 10),
+QT_MOC_LITERAL(41, 473, 11)
     },
     "QBaseMeter\0setType\0\0Type\0setState\0"
     "State\0setName\0setTitle\0setChannel\0"
@@ -84,7 +85,7 @@ QT_MOC_LITERAL(40, 462, 10)
     "setScaleLineColor\0setMiddleVisiable\0"
     "setCrownColor\0setBackgroundColor\0"
     "setTextColor\0setIndicatorColor\0"
-    "setRuntime"
+    "setRuntime\0ChangeValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -94,7 +95,7 @@ static const uint qt_meta_data_QBaseMeter[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      36,   14, // methods
+      37,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -102,42 +103,43 @@ static const uint qt_meta_data_QBaseMeter[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,  194,    2, 0x0a /* Public */,
-       4,    1,  197,    2, 0x0a /* Public */,
-       6,    1,  200,    2, 0x0a /* Public */,
-       7,    1,  203,    2, 0x0a /* Public */,
-       8,    1,  206,    2, 0x0a /* Public */,
-       9,    1,  209,    2, 0x0a /* Public */,
-      10,    1,  212,    2, 0x0a /* Public */,
-      11,    1,  215,    2, 0x0a /* Public */,
-      11,    2,  218,    2, 0x0a /* Public */,
-      12,    1,  223,    2, 0x0a /* Public */,
-      13,    1,  226,    2, 0x0a /* Public */,
-      14,    1,  229,    2, 0x0a /* Public */,
-      15,    2,  232,    2, 0x0a /* Public */,
-      15,    1,  237,    2, 0x2a /* Public | MethodCloned */,
-      18,    1,  240,    2, 0x0a /* Public */,
-      19,    1,  243,    2, 0x0a /* Public */,
-      20,    1,  246,    2, 0x0a /* Public */,
-      21,    1,  249,    2, 0x0a /* Public */,
-      22,    1,  252,    2, 0x0a /* Public */,
-      23,    1,  255,    2, 0x0a /* Public */,
-      24,    1,  258,    2, 0x0a /* Public */,
-      25,    1,  261,    2, 0x0a /* Public */,
-      26,    1,  264,    2, 0x0a /* Public */,
-      27,    1,  267,    2, 0x0a /* Public */,
-      28,    1,  270,    2, 0x0a /* Public */,
-      29,    1,  273,    2, 0x0a /* Public */,
-      30,    2,  276,    2, 0x0a /* Public */,
-      32,    2,  281,    2, 0x0a /* Public */,
-      33,    2,  286,    2, 0x0a /* Public */,
-      34,    2,  291,    2, 0x0a /* Public */,
-      35,    1,  296,    2, 0x0a /* Public */,
-      36,    1,  299,    2, 0x0a /* Public */,
-      37,    1,  302,    2, 0x0a /* Public */,
-      38,    1,  305,    2, 0x0a /* Public */,
-      39,    1,  308,    2, 0x0a /* Public */,
-      40,    1,  311,    2, 0x0a /* Public */,
+       1,    1,  199,    2, 0x0a /* Public */,
+       4,    1,  202,    2, 0x0a /* Public */,
+       6,    1,  205,    2, 0x0a /* Public */,
+       7,    1,  208,    2, 0x0a /* Public */,
+       8,    1,  211,    2, 0x0a /* Public */,
+       9,    1,  214,    2, 0x0a /* Public */,
+      10,    1,  217,    2, 0x0a /* Public */,
+      11,    1,  220,    2, 0x0a /* Public */,
+      11,    2,  223,    2, 0x0a /* Public */,
+      12,    1,  228,    2, 0x0a /* Public */,
+      13,    1,  231,    2, 0x0a /* Public */,
+      14,    1,  234,    2, 0x0a /* Public */,
+      15,    2,  237,    2, 0x0a /* Public */,
+      15,    1,  242,    2, 0x2a /* Public | MethodCloned */,
+      18,    1,  245,    2, 0x0a /* Public */,
+      19,    1,  248,    2, 0x0a /* Public */,
+      20,    1,  251,    2, 0x0a /* Public */,
+      21,    1,  254,    2, 0x0a /* Public */,
+      22,    1,  257,    2, 0x0a /* Public */,
+      23,    1,  260,    2, 0x0a /* Public */,
+      24,    1,  263,    2, 0x0a /* Public */,
+      25,    1,  266,    2, 0x0a /* Public */,
+      26,    1,  269,    2, 0x0a /* Public */,
+      27,    1,  272,    2, 0x0a /* Public */,
+      28,    1,  275,    2, 0x0a /* Public */,
+      29,    1,  278,    2, 0x0a /* Public */,
+      30,    2,  281,    2, 0x0a /* Public */,
+      32,    2,  286,    2, 0x0a /* Public */,
+      33,    2,  291,    2, 0x0a /* Public */,
+      34,    2,  296,    2, 0x0a /* Public */,
+      35,    1,  301,    2, 0x0a /* Public */,
+      36,    1,  304,    2, 0x0a /* Public */,
+      37,    1,  307,    2, 0x0a /* Public */,
+      38,    1,  310,    2, 0x0a /* Public */,
+      39,    1,  313,    2, 0x0a /* Public */,
+      40,    1,  316,    2, 0x0a /* Public */,
+      41,    0,  319,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3,    2,
@@ -176,6 +178,7 @@ static const uint qt_meta_data_QBaseMeter[] = {
     QMetaType::Void, QMetaType::QColor,    2,
     QMetaType::Void, QMetaType::QColor,    2,
     QMetaType::Void, QMetaType::Int,    2,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -221,6 +224,7 @@ void QBaseMeter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 33: _t->setTextColor((*reinterpret_cast< QColor(*)>(_a[1]))); break;
         case 34: _t->setIndicatorColor((*reinterpret_cast< QColor(*)>(_a[1]))); break;
         case 35: _t->setRuntime((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 36: _t->ChangeValue(); break;
         default: ;
         }
     }
@@ -251,13 +255,13 @@ int QBaseMeter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 36)
+        if (_id < 37)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 36;
+        _id -= 37;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 36)
+        if (_id < 37)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 36;
+        _id -= 37;
     }
     return _id;
 }

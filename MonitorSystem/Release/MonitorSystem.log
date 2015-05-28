@@ -1,17 +1,82 @@
-﻿Build started 5/27/2015 10:11:50 AM.
-     1>Project "D:\Scada_v5\MonitorSystem\MonitorSystem.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Scada_v5\MonitorSystem\GeneratedFiles /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin /IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /ID:\Scada_v5\Scada\Distance /ID:\Scada_v5\Scada\CanOpen /ID:\Scada_v5\Scada\src /ID:\Scada_v5\Scada /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Scada\CanOpen\canopenprotocol.cpp monitorsystem.cpp
+﻿Build started 5/28/2015 4:02:13 PM.
+     1>Project "E:\Documents\Scada\MonitorSystem\MonitorSystem.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Moc'ing monitorsystem.h...
+         Uic'ing monitorsystem.ui...
+         Moc'ing qexcel.h...
+         Moc'ing thermometer.h...
+         Moc'ing qmeter.h...
+         Moc'ing indicatorlamp.h...
+         Moc'ing fuelmeter.h...
+         Moc'ing enginemeter.h...
+         Moc'ing configure.h...
+         Moc'ing basepage.h...
+         Moc'ing canopenprotocol.h...
+         Moc'ing distance.h...
+         Moc'ing settingsdialog.h...
+         Rcc'ing monitorsystem.qrc...
+         Uic'ing ..\Scada\Distance\settingsdialog.ui...
+         Moc'ing qbasemeter.h...
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Documents\Scada\MonitorSystem\GeneratedFiles /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /IE:\Documents\Scada\Scada\Distance /IE:\Documents\Scada\Scada\CanOpen /IE:\Documents\Scada\Scada\src /IE:\Documents\Scada\Scada /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Scada\CanOpen\CanNode.cpp ..\Scada\CanOpen\canopenprotocol.cpp ..\Scada\channel.cpp ..\Scada\connectdb.cpp ..\Scada\Distance\dataoperate.cpp ..\Scada\Distance\distance.cpp ..\Scada\Distance\Leastsquare.cpp ..\Scada\Distance\settingsdialog.cpp ..\Scada\SettingFiles.cpp ..\Scada\src\basepage.cpp ..\Scada\src\configure.cpp ..\Scada\src\enginemeter.cpp ..\Scada\src\fuelmeter.cpp ..\Scada\src\indicatorlamp.cpp ..\Scada\src\InfoMsg.cpp ..\Scada\src\qbasemeter.cpp ..\Scada\src\qmeter.cpp ..\Scada\src\thermometer.cpp GeneratedFiles\Release\moc_basepage.cpp GeneratedFiles\Release\moc_canopenprotocol.cpp GeneratedFiles\Release\moc_configure.cpp GeneratedFiles\Release\moc_distance.cpp GeneratedFiles\Release\moc_enginemeter.cpp GeneratedFiles\Release\moc_fuelmeter.cpp GeneratedFiles\Release\moc_indicatorlamp.cpp GeneratedFiles\Release\moc_monitorsystem.cpp GeneratedFiles\Release\moc_qbasemeter.cpp GeneratedFiles\Release\moc_qexcel.cpp GeneratedFiles\Release\moc_qmeter.cpp GeneratedFiles\Release\moc_settingsdialog.cpp GeneratedFiles\Release\moc_thermometer.cpp main.cpp monitorsystem.cpp qexcel.cpp
+         CanNode.cpp
+     1>..\Scada\CanOpen\CanNode.cpp(2): warning C4103: 'e:\documents\scada\scada\canopen\cannode.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
          canopenprotocol.cpp
-     1>d:\scada_v5\scada\canopen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>..\Scada\CanOpen\canopenprotocol.cpp(1): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
-         monitorsystem.cpp
-     1>D:\Scada_v5\Scada\CanOpen\canopenprotocol.h(5): warning C4103: 'd:\scada_v5\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>d:\scada_v5\monitorsystem\monitorsystem.h(9): warning C4103: 'd:\scada_v5\monitorsystem\monitorsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
-     1>monitorsystem.cpp(1): warning C4103: 'd:\scada_v5\monitorsystem\monitorsystem.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>e:\documents\scada\scada\canopen\canopenprotocol.h(5): warning C4103: 'e:\documents\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>..\Scada\CanOpen\canopenprotocol.cpp(1): warning C4103: 'e:\documents\scada\scada\canopen\canopenprotocol.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         channel.cpp
+         connectdb.cpp
+         dataoperate.cpp
+     1>..\Scada\Distance\dataoperate.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         distance.cpp
+     1>e:\documents\scada\scada\distance\Leastsquare.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Leastsquare.cpp
+     1>e:\documents\scada\scada\distance\Leastsquare.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         settingsdialog.cpp
+         SettingFiles.cpp
+         basepage.cpp
+         configure.cpp
+         enginemeter.cpp
+         fuelmeter.cpp
+         indicatorlamp.cpp
+         InfoMsg.cpp
+         qbasemeter.cpp
+         qmeter.cpp
+         thermometer.cpp
+         moc_basepage.cpp
+         moc_canopenprotocol.cpp
+     1>e:\documents\scada\monitorsystem\generatedfiles\release\../../../Scada/CanOpen/canopenprotocol.h(5): warning C4103: 'e:\documents\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>GeneratedFiles\Release\moc_canopenprotocol.cpp(9): warning C4103: 'e:\documents\scada\monitorsystem\generatedfiles\release\moc_canopenprotocol.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
          Generating Code...
+         Compiling...
+         moc_configure.cpp
+         moc_distance.cpp
+         moc_enginemeter.cpp
+         moc_fuelmeter.cpp
+         moc_indicatorlamp.cpp
+         moc_monitorsystem.cpp
+     1>E:\Documents\Scada\Scada\CanOpen\canopenprotocol.h(5): warning C4103: 'e:\documents\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>e:\documents\scada\monitorsystem\generatedfiles\release\../../monitorsystem.h(9): warning C4103: 'e:\documents\scada\monitorsystem\monitorsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>GeneratedFiles\Release\moc_monitorsystem.cpp(9): warning C4103: 'e:\documents\scada\monitorsystem\generatedfiles\release\moc_monitorsystem.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         moc_qbasemeter.cpp
+         moc_qexcel.cpp
+         moc_qmeter.cpp
+         moc_settingsdialog.cpp
+         moc_thermometer.cpp
+         main.cpp
+     1>E:\Documents\Scada\Scada\CanOpen\canopenprotocol.h(5): warning C4103: 'e:\documents\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>e:\documents\scada\monitorsystem\monitorsystem.h(9): warning C4103: 'e:\documents\scada\monitorsystem\monitorsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>main.cpp(1): warning C4103: 'e:\documents\scada\monitorsystem\main.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         monitorsystem.cpp
+     1>E:\Documents\Scada\Scada\CanOpen\canopenprotocol.h(5): warning C4103: 'e:\documents\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>e:\documents\scada\monitorsystem\monitorsystem.h(9): warning C4103: 'e:\documents\scada\monitorsystem\monitorsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>monitorsystem.cpp(1): warning C4103: 'e:\documents\scada\monitorsystem\monitorsystem.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         qexcel.cpp
+         Generating Code...
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Documents\Scada\MonitorSystem\GeneratedFiles /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /IE:\Documents\Scada\Scada\Distance /IE:\Documents\Scada\Scada\CanOpen /IE:\Documents\Scada\Scada\src /IE:\Documents\Scada\Scada /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_monitorsystem.cpp
+         qrc_monitorsystem.cpp
        Link:
-         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Scada_v5\Win32\Release\\MonitorSystem.exe" /NOLOGO /LIBPATH:E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\che\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen\IEICAN02LIB /LIBPATH:C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib Qt5SerialPort.lib IEICAN02.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Scada_v5\Win32\Release\MonitorSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Scada_v5\Win32\Release\MonitorSystem.lib" /MACHINE:X86 /SAFESEH Release\CanNode.obj
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\Scada\Win32\Release\\MonitorSystem.exe" /NOLOGO /LIBPATH:E:\Documents\Scada\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib Qt5SerialPort.lib IEICAN02.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\Documents\Scada\Win32\Release\MonitorSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\Scada\Win32\Release\MonitorSystem.lib" /MACHINE:X86 /SAFESEH Release\CanNode.obj
          Release\canopenprotocol.obj
          Release\channel.obj
          Release\connectdb.obj
@@ -46,9 +111,9 @@
          Release\main.obj
          Release\monitorsystem.obj
          Release\qexcel.obj
-         MonitorSystem.vcxproj -> D:\Scada_v5\Win32\Release\MonitorSystem.exe
-     1>Done Building Project "D:\Scada_v5\MonitorSystem\MonitorSystem.vcxproj" (Build target(s)).
+         MonitorSystem.vcxproj -> E:\Documents\Scada\Win32\Release\MonitorSystem.exe
+     1>Done Building Project "E:\Documents\Scada\MonitorSystem\MonitorSystem.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.28
+Time Elapsed 00:00:26.16

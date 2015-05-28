@@ -41,7 +41,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
-    <IncludePath>C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql;D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSerialPort;D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets;D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore;D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui;D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -66,12 +66,12 @@
       <DebugInformationFormat />
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
-      <AdditionalIncludeDirectories>D:\Scada_v5\MonitorSystem\GeneratedFiles;C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql;C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets;C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore;C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui;C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin;C:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include;D:\Scada_v5\Scada\Distance;D:\Scada_v5\Scada\CanOpen;D:\Scada_v5\Scada\src;D:\Scada_v5\Scada;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Documents\Scada\MonitorSystem\GeneratedFiles;D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include;E:\Documents\Scada\Scada\Distance;E:\Documents\Scada\Scada\CanOpen;E:\Documents\Scada\Scada\src;E:\Documents\Scada\Scada;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
-      <AdditionalLibraryDirectories>E:\Documents\ProgramFiles\qtPrograms\Scada\scada\Scada\CanOpen\IEICAN02LIB;D:\Scada_v5\Scada\CanOpen\IEICAN02LIB;D:\che\Scada_v5\Scada\CanOpen\IEICAN02LIB;E:\Documents\ProgramFiles\qtPrograms\Scada_v5\Scada\CanOpen\IEICAN02LIB;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:\Documents\Scada\Scada\CanOpen\IEICAN02LIB;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <AdditionalDependencies>qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Sql.lib;Qt5Widgets.lib;Qt5SerialPort.lib;IEICAN02.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -192,7 +192,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing monitorsystem.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -280,7 +280,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing qexcel.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\src\thermometer.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -290,7 +290,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing thermometer.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\src\qmeter.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -300,17 +300,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing qmeter.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
-    </CustomBuild>
-    <CustomBuild Include="..\Scada\src\qbasemeter.h">
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing qbasemeter.h...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtSql" "-I$(QTDIR)\include\QtWidgets"</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing qbasemeter.h...</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\src\indicatorlamp.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -320,7 +310,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing indicatorlamp.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\src\fuelmeter.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -330,7 +320,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing fuelmeter.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\src\enginemeter.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -340,7 +330,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing enginemeter.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\src\configure.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -350,7 +340,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing configure.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\src\basepage.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -360,7 +350,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing basepage.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\CanOpen\canopenprotocol.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -370,7 +360,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing canopenprotocol.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\channel.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -444,7 +434,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing distance.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\Distance\settingsdialog.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -454,7 +444,7 @@
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing settingsdialog.h...</Message>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-ID:\Scada_v5\MonitorSystem\GeneratedFiles" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtSql" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtWidgets" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtCore" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include\QtGui" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\bin" "-IC:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-ID:\Scada_v5\Scada\Distance" "-ID:\Scada_v5\Scada\CanOpen" "-ID:\Scada_v5\Scada\src" "-ID:\Scada_v5\Scada"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB  "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
     </CustomBuild>
     <CustomBuild Include="..\Scada\SettingFiles.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -498,6 +488,16 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="..\Scada\src\qbasemeter.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing qbasemeter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtSql" "-I$(QTDIR)\include\QtWidgets"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing qbasemeter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB "-IE:\Documents\Scada\MonitorSystem\GeneratedFiles" "-ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include" "-IE:\Documents\Scada\Scada\Distance" "-IE:\Documents\Scada\Scada\CanOpen" "-IE:\Documents\Scada\Scada\src" "-IE:\Documents\Scada\Scada"</Command>
+    </CustomBuild>
     <ClInclude Include="GeneratedFiles\ui_monitorsystem.h" />
     <ClInclude Include="GeneratedFiles\ui_settingsdialog.h" />
   </ItemGroup>

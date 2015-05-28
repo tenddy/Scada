@@ -20,13 +20,10 @@ CanOpenProtocol::CanOpenProtocol(int can_idx, int can_node,QObject *parent)
     node = new CanNode();
     m_readReady = false;
     m_TestFlag = true;
-    //QMessageBox::about(0,"run","1");
     m_channelCounts = 0;
     
     InitCardInterface();
-    //QMessageBox::about(0,"run","2");
     initChannel();
-    //QMessageBox::about(0,"run","3");
 }
 
 CanOpenProtocol::~CanOpenProtocol()
@@ -65,8 +62,6 @@ void CanOpenProtocol::InitCardInterface(UINT8 bt0, UINT8 bt1, UINT8 mode)
 
 QVector<unsigned int> CanOpenProtocol::ChannelCounts() 
 {
-   
-   
     return node->getChannelCounts();
 }
 
