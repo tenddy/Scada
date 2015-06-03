@@ -21,7 +21,7 @@ MonitorSystem::MonitorSystem(QWidget *parent)
     ui.setupUi(this);
     
     m_defaultPath = "D:\\data";
-   
+    m_offset = QPoint(0,0);
     m_maxPage = 0;
     initStackPage();
     ui.stackedWidget->setCurrentIndex(0);
@@ -36,7 +36,7 @@ MonitorSystem::MonitorSystem(QWidget *parent)
 
     setWindowFlags(Qt::WindowStaysOnTopHint | Qt::FramelessWindowHint);
 
-    //setCursor(Qt::BlankCursor);
+    setCursor(Qt::BlankCursor);
     showFullScreen();
 }
 
@@ -47,6 +47,9 @@ MonitorSystem::~MonitorSystem()
 
 void MonitorSystem::createUI()
 {
+    QMouseEvent *event;
+    m_cursorCurrentPos = event->pos();
+    //QMessageBox::about(this,"pos",QString("x:%1,y:%2").arg(m_cursorCurrentPos.x()).arg(m_cursorCurrentPos.y()));
     m_pushButtonStatusChange = new QPushButton(QStringLiteral("ÏÔÊ¾×´Ì¬½çÃæ"));
     statusWidget = new QWidget;
     QHBoxLayout *layout = new QHBoxLayout();
@@ -61,7 +64,7 @@ void MonitorSystem::createUI()
     QTimer *timer = new QTimer;
     connect(timer,SIGNAL(timeout()),this,SLOT(updataValue()));
     connect(timer,SIGNAL(timeout()),this,SLOT(saveData()));
-    timer->start(1);
+    timer->start(100);
 }
 
 void MonitorSystem::initStackPage()
@@ -274,6 +277,16 @@ void  MonitorSystem::saveData()
 }
 
 //mouse event
+void MonitorSystem::mouseMoveEvent(QMouseEvent *e)
+{
+ /*  m_offset = e->globalPos() - m_cursorCurrentPos;
+   m_cursorCurrentPos  = e->globalPos();
+   if(m_offset.manhattanLength() == 0)
+       setCursor(Qt::BlankCursor);
+   else*/
+       setCursor(Qt::ArrowCursor);
+    
+}
 void MonitorSystem::mousePressEvent(QMouseEvent *e)
 {
     int w = width(), h = height();

@@ -37,10 +37,10 @@ CanOpenProtocol::~CanOpenProtocol()
 void CanOpenProtocol::InitCardInterface(UINT8 bt0, UINT8 bt1, UINT8 mode)
 {
 
-    /*init can card*/
+    /*initili Can card*/
     CAN_Init(m_CardIndex, m_CanNode, bt0, bt1, mode);
    
-    /*start can*/
+    /*start Can card*/
     CAN_Start(m_CardIndex, m_CanNode);
 
     /*init node */
@@ -49,10 +49,12 @@ void CanOpenProtocol::InitCardInterface(UINT8 bt0, UINT8 bt1, UINT8 mode)
 	//input channels
     m_digitData.resize(node->getChannelCounts(0));
     m_analogData.resize(node->getChannelCounts(2));
+
     channelNum[0] = node->getChannelCounts(0);
     channelNum[1] = node->getChannelCounts(1);
     channelNum[2] = node->getChannelCounts(2);
     channelNum[3] = node->getChannelCounts(3);
+
     //QMessageBox::about(0,"channel",QString::number(channelNum[0]+channelNum[2]));
     //receive data
    /* connect(timer,SIGNAL(timeout()),this,SLOT(receiveData()));
@@ -68,10 +70,13 @@ QVector<unsigned int> CanOpenProtocol::ChannelCounts()
 /* parse the origin data*/
 void CanOpenProtocol::ParseData(const CAN_MSG msg)
 {
+    QTime t;
+    t.start();
     int cob_id = msg.id; 
     QString data;
     int channel = 0;
     int digitNum = node->getChannelCounts(0);
+
 
     QFile file("data.txt");
     bool fileerr = true;;
@@ -96,11 +101,13 @@ void CanOpenProtocol::ParseData(const CAN_MSG msg)
             {
                 //m_digitData[channel].push_back(DigitTransform((int)msg.a_data[i]&(0x01<<j)));
                 m_digitData[channel].push_back(DigitTransform((digit>>j)&0x01));
+
 				data += QString("channel_%1:").arg(channel+1) + DigitTransform((digit>>j)&0x01) + " "; 
 				
                 if(m_channelMap.contains(channel+1))
 				{
                     m_channelMap[channel+1]->setDigitValue((digit>>j)&0x01);
+
 					//data += QString("store value:\t%1").arg(m_channelMap[channel+1]->getIntValue());
 				}
 				if(m_channelData.contains(channel+1))
@@ -193,12 +200,12 @@ void CanOpenProtocol::ParseData(const CAN_MSG msg)
               m_state = ERR;
               data += "error";
         }
-        break; //Guarding/HeartBeat/Boot-up
+        break; // Guarding/HeartBeat/Boot-up
     default:
         break;
     }
     if(fileerr && !data.isEmpty())
-        out << data << "\n";
+        out << "data:" << data << "\t" << " time elapsed:" << t.elapsed() << "\n";
     file.close();
 }
 
@@ -348,7 +355,7 @@ void CanOpenProtocol::receiveData()
         ParseData(pobj[i]);
         
         m_buffer.enqueue(data);
-        while(m_buffer.size() >1000)
+        while(m_buffer.size() > 1000)
             read();
 
         m_countRevMSG++;
@@ -390,7 +397,7 @@ void CanOpenProtocol::initChannel()
     {
         if(query.value(1).toString().isEmpty())
            continue;
-       int id = query.value(1).toString().mid(8).toInt();
+        int id = query.value(1).toString().mid(8).toInt();
         bool adFlag = false;
         if(query.value(6).toInt() == 1)
            adFlag = true;

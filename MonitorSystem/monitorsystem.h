@@ -6,9 +6,12 @@
 #include <qevent.h>
 #include <qvector.h>
 #include <qprocess.h>
+#include <QPoint>
+
 #include "canopenprotocol.h"
 #include "distance.h"
 #include "qexcel.h"
+
 
 class MonitorSystem : public QWidget
 {
@@ -23,12 +26,14 @@ public:
     void startProcess(QString filePath);
 protected:
 	//void resizeEvent(QResizeEvent *);  
-   // void mouseMoveEvent(QMouseEvent *e);
+    void mouseMoveEvent(QMouseEvent *e);
     void mousePressEvent(QMouseEvent *e);
     void mouseReleaseEvent(QMouseEvent *e);
     void mouseDoubleClickEvent(QMouseEvent *e);
 
 private:
+    QPoint m_offset;
+    QPoint m_cursorCurrentPos;
     Ui::MonitorSystemClass ui;
     QWidget *statusWidget;
     QPushButton *m_pushButtonStatusChange;

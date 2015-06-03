@@ -1,8 +1,12 @@
-﻿Build started 5/28/2015 10:01:13 PM.
+﻿Build started 5/29/2015 10:09:02 AM.
      1>Project "E:\Documents\Scada\MonitorSystem\MonitorSystem.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Documents\Scada\MonitorSystem\GeneratedFiles /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /IE:\Documents\Scada\Scada\Distance /IE:\Documents\Scada\Scada\CanOpen /IE:\Documents\Scada\Scada\src /IE:\Documents\Scada\Scada /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Scada\src\qbasemeter.cpp
-         qbasemeter.cpp
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\Documents\Scada\MonitorSystem\GeneratedFiles /ID:\Qt\Qt5.3.2\5.3\msvc2012_opengl\include /IE:\Documents\Scada\Scada\Distance /IE:\Documents\Scada\Scada\CanOpen /IE:\Documents\Scada\Scada\src /IE:\Documents\Scada\Scada /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt monitorsystem.cpp
+         monitorsystem.cpp
+     1>E:\Documents\Scada\Scada\CanOpen\canopenprotocol.h(5): warning C4103: 'e:\documents\scada\scada\canopen\canopenprotocol.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>e:\documents\scada\monitorsystem\monitorsystem.h(11): warning C4103: 'e:\documents\scada\monitorsystem\monitorsystem.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>monitorsystem.cpp(1): warning C4103: 'e:\documents\scada\monitorsystem\monitorsystem.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>e:\documents\scada\monitorsystem\monitorsystem.cpp(51): warning C4700: uninitialized local variable 'event' used
        Link:
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\Scada\Win32\Release\\MonitorSystem.exe" /NOLOGO /LIBPATH:E:\Documents\Scada\Scada\CanOpen\IEICAN02LIB /LIBPATH:D:\Qt\Qt5.3.2\5.3\msvc2012_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib Qt5SerialPort.lib IEICAN02.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\Documents\Scada\Win32\Release\MonitorSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\Scada\Win32\Release\MonitorSystem.lib" /MACHINE:X86 /SAFESEH Release\CanNode.obj
          Release\canopenprotocol.obj
@@ -44,4 +48,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.86
+Time Elapsed 00:00:01.97
